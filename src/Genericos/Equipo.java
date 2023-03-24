@@ -21,6 +21,9 @@ public class Equipo <T extends Jugador> implements Comparable<Equipo>{
 
     }
 
+    public String getNombre() {
+        return nombre;
+    }
 
     public boolean addJugador (T t){
 
