@@ -28,7 +28,7 @@ public boolean delete(T element){
     if (pase==0){return false;}
     else{return true;}
 }
-
+/*
     public T find(T element){
 
         for (Object o: array) {
@@ -38,7 +38,7 @@ public boolean delete(T element){
         }
 
     }
-
+*/
 
 
 
