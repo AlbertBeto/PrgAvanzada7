@@ -5,13 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fa6dbf03-e0af-4a38-a874-b44d974f56f5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Lambda/CambiarMays.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lambda/CaracteresPares.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lambda/LambdaMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lambda/MiPrimerLambda.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lambda/Runnable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Genericos/GenericosMain2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Genericos/Set.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Genericos/Set.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,8 +17,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -49,7 +45,7 @@
       <recent name="B:\Cerbell\GSDAW\PROGRAMACIONJAVA\UNIDAD 7\PrgAvanzada\PrgAvanzada\src\Genericos" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LambdaMain">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="LambdaMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Lambda.LambdaMain" />
       <module name="PrgAvanzada" />
@@ -59,6 +55,13 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="PrgAvanzada" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -78,6 +81,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.LambdaMain" />
         <item itemvalue="Application.MainEquipo" />
       </list>
@@ -113,13 +117,21 @@
       <option name="project" value="LOCAL" />
       <updated>1679666026618</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Todo lo del lambda creado">
+      <created>1679885090429</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1679885090429</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Creamos repositorio" />
     <MESSAGE value="introducidos los javas de los equipos y los jugadores." />
     <MESSAGE value="Liga creada y primeros codigos del set" />
-    <option name="LAST_COMMIT_MESSAGE" value="Liga creada y primeros codigos del set" />
+    <MESSAGE value="Todo lo del lambda creado" />
+    <option name="LAST_COMMIT_MESSAGE" value="Todo lo del lambda creado" />
   </component>
 </project>
