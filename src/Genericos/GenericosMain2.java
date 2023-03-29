@@ -12,16 +12,18 @@ public class GenericosMain2 {
         al.add("A");
         al.add("B");
         m1(al);
-        Iterator<String> itr = al.iterator();
+       /* Iterator<String> itr = al.iterator();
         while (itr.hasNext()){
             String str = itr.next();
             System.out.print(str + " ");
-        }
+        }*/
 
         System.out.println("Viejo");
         System.out.println(al);
         System.out.println(al.get(0));
-        System.out.println(al.get(2));
+        //System.out.println(al.get(2));
+        System.out.println("Importante");
+        System.out.println(al.get(0).getClass().getName());
 
     }
 
