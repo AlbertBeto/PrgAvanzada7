@@ -5,9 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fa6dbf03-e0af-4a38-a874-b44d974f56f5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Genericos/Calculadora.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Predicate/Ciudad.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Predicate/MainPredicate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Predicate/PredicadoTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Genericos/GenericosMain2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Genericos/GenericosMain2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Genericos/Calculadora.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Genericos/Calculadora.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,13 +48,13 @@
       <recent name="B:\Cerbell\GSDAW\PROGRAMACIONJAVA\UNIDAD 7\PrgAvanzada\PrgAvanzada\src\Genericos" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.GenericosMain2">
-    <configuration name="GenericosMain2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Genericos.GenericosMain2" />
+  <component name="RunManager" selected="Application.Ciudad">
+    <configuration name="Ciudad" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Predicate.Ciudad" />
       <module name="PrgAvanzada" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Genericos.*" />
+          <option name="PATTERN" value="Predicate.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -60,12 +62,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LambdaMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lambda.LambdaMain" />
+    <configuration name="GenericosMain2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Genericos.GenericosMain2" />
       <module name="PrgAvanzada" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lambda.*" />
+          <option name="PATTERN" value="Genericos.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -80,12 +82,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainEquipo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Genericos.MainEquipo" />
+    <configuration name="MainPredicate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Predicate.MainPredicate" />
       <module name="PrgAvanzada" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Genericos.*" />
+          <option name="PATTERN" value="Predicate.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PredicadoTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Predicate.PredicadoTest" />
+      <module name="PrgAvanzada" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Predicate.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -95,10 +110,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Ciudad" />
+        <item itemvalue="Application.PredicadoTest" />
+        <item itemvalue="Application.MainPredicate" />
         <item itemvalue="Application.GenericosMain2" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.LambdaMain" />
-        <item itemvalue="Application.MainEquipo" />
       </list>
     </recent_temporary>
   </component>
@@ -146,7 +162,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679966289392</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Genericos2">
+      <created>1680080143540</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1680080143540</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -155,6 +178,37 @@
     <MESSAGE value="Liga creada y primeros codigos del set" />
     <MESSAGE value="Todo lo del lambda creado" />
     <MESSAGE value="Genericos2 main creado" />
-    <option name="LAST_COMMIT_MESSAGE" value="Genericos2 main creado" />
+    <MESSAGE value="Genericos2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Genericos2" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Predicate/PredicadoTest.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Predicate/PredicadoTest.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Predicate/Ciudad.java</url>
+          <line>51</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/Predicate/Ciudad.java</url>
+          <line>35</line>
+          <properties class="Predicate.Ciudad" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

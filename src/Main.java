@@ -16,7 +16,7 @@ public class Main {
         }
     }
 
-    public void printArray(Array<T>)
+  ///  public void printArray(Array<T>)
 
         public static void main(String args[]) {
             //MyGen<Integer> m = new MyGen<Integer>();

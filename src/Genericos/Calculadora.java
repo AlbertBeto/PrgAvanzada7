@@ -20,13 +20,13 @@ public class Calculadora<T extends Number> {
         colocator.add(b1);
         colocator.add(b2);
     }
-
+/*
     public T suma(T num1, T num2){
         colocador(listado,num1,num2);
         T suma=listado.get(0)+listado.get(1);
         return ;
     }
-
+*/
 
 
     //class
