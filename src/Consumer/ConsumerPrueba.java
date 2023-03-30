@@ -3,6 +3,7 @@ package Consumer;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
+import java.util.function.BiConsumer;
 import java.util.function.Consumer;
 import java.util.function.Supplier;
 
@@ -63,6 +64,12 @@ public class ConsumerPrueba {
         //Ejercicio 6
 
 Supplier<HashMap> crearMapa = () -> new HashMap<>();
+
+//Ejercicio 7
+        BiConsumer<Integer,Integer> epsilon = (x,y) -> System.out.println(x*y);
+epsilon.accept(-9,7);
+
+
 
         //main
 

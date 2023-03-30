@@ -6,6 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="fa6dbf03-e0af-4a38-a874-b44d974f56f5" name="Changes" comment="Remate final de Predicate, Supplier">
       <change afterPath="$PROJECT_DIR$/src/Consumer/ConsumerPrueba.java" afterDir="false" />
+    </list>
+    <list default="true" id="fa6dbf03-e0af-4a38-a874-b44d974f56f5" name="Changes" comment="Ejercicios Predicate creados">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -33,38 +35,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "/home/ALU1W/Documentos/PROGRAMACION/Prgramacion avanzada/PrgAvanzada7"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="B:\Cerbell\GSDAW\PROGRAMACIONJAVA\UNIDAD 7\PrgAvanzada\PrgAvanzada\src\Genericos" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ConsumerPrueba">
+  <component name="RunManager" selected="Application.Ciudad">
     <configuration name="Ciudad" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Predicate.Ciudad" />
       <module name="PrgAvanzada" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Predicate.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ConsumerPrueba" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Consumer.ConsumerPrueba" />
-      <module name="PrgAvanzada" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Consumer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -81,6 +69,13 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="PrgAvanzada" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -113,11 +108,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ConsumerPrueba" />
         <item itemvalue="Application.Ciudad" />
         <item itemvalue="Application.PredicadoTest" />
         <item itemvalue="Application.MainPredicate" />
         <item itemvalue="Application.GenericosMain2" />
+        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -172,14 +167,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680080143540</updated>
     </task>
-    <task id="LOCAL-00007" summary="Remate final de Predicate, Supplier">
-      <created>1680112228817</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1680112228817</updated>
-    </task>
-    <option name="localTasksCounter" value="8" />
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -189,8 +177,7 @@
     <MESSAGE value="Todo lo del lambda creado" />
     <MESSAGE value="Genericos2 main creado" />
     <MESSAGE value="Genericos2" />
-    <MESSAGE value="Remate final de Predicate, Supplier" />
-    <option name="LAST_COMMIT_MESSAGE" value="Remate final de Predicate, Supplier" />
+    <option name="LAST_COMMIT_MESSAGE" value="Genericos2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
