@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fa6dbf03-e0af-4a38-a874-b44d974f56f5" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Consumer/ConsumerPrueba.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Consumer/ConsumerPrueba.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Consumer/Programador.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -178,7 +177,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680218577571</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="HAsta el ejercicio 11 de Consumer, supplier y no se que mas">
+      <created>1680221671266</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1680221671266</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -189,7 +195,8 @@
     <MESSAGE value="Genericos2 main creado" />
     <MESSAGE value="Genericos2" />
     <MESSAGE value="Trabajando con consumer y solucionado error con workspace. Un final de lista no estaba...." />
-    <option name="LAST_COMMIT_MESSAGE" value="Trabajando con consumer y solucionado error con workspace. Un final de lista no estaba...." />
+    <MESSAGE value="HAsta el ejercicio 11 de Consumer, supplier y no se que mas" />
+    <option name="LAST_COMMIT_MESSAGE" value="HAsta el ejercicio 11 de Consumer, supplier y no se que mas" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
