@@ -1,8 +1,7 @@
 package Consumer;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
+import java.time.LocalDate;
+import java.util.*;
 import java.util.function.BiConsumer;
 import java.util.function.Consumer;
 import java.util.function.Supplier;
@@ -66,13 +65,50 @@ public class ConsumerPrueba {
 Supplier<HashMap> crearMapa = () -> new HashMap<>();
 
 //Ejercicio 7
-        BiConsumer<Integer,Integer> epsilon = (x,y) -> System.out.println(x*y);
-epsilon.accept(-9,7);
+        BiConsumer<Integer,Integer> multiplica = (x,y) -> System.out.println(x*y);
+multiplica.accept(-9,7);
+
+//Ejercicio 8
+        BiConsumer<Integer,Integer> multiple = (x,y) -> {System.out.println(x+y);
+            System.out.println(x+y);
+            System.out.println(x-y);
+            System.out.println(x/y);
+        };
+        multiple.accept(-9,7);
+
+        System.out.println("Separado");
+        BiConsumer<Integer,Integer> suma = (x,y) -> System.out.println(x+y);
+        BiConsumer<Integer,Integer> resta = (x,y) -> System.out.println(x-y);
+        BiConsumer<Integer,Integer> division = (x,y) -> System.out.println(x/y);
+        suma.accept(-9,7);
+        resta.accept(-9,7);
+        division.accept(-9,7);
 
 
+        //ejercicio 9
+        System.out.println("Esto es Calculator");
+        calculator(-9,7,suma);
+
+        //ejercicio 10
+        LinkedHashMap<Integer,String> malosPelis = new LinkedHashMap<>();
+        malosPelis.put(1,"Scorpion");
+        malosPelis.put(2,"WidowMaker");
+        malosPelis.put(3,"Lex Lutor");
+        malosPelis.put(4,"Bruja del Norte");
+        malosPelis.put(5,"Vertorix");
+
+        malosPelis.forEach((key,value) -> System.out.println(key+" "+value));
+
+        //ejercicio 11
+        Supplier tiempo = () -> LocalDate.now();
+        System.out.println("La fecha de hoy es "+tiempo.get());
 
         //main
 
+    }
+
+    public static void calculator(Integer num1, Integer num2, BiConsumer<Integer,Integer> operator){
+        operator.accept(num1,num2);
     }
 
 
