@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fa6dbf03-e0af-4a38-a874-b44d974f56f5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Consumer/Programador.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Consumer/ListaProgramadores.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Consumer/ConsumerPrueba.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Consumer/ConsumerPrueba.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Consumer/Programador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Consumer/Programador.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -184,7 +187,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680221671266</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Ejercicio 12. Clase programador creada.">
+      <created>1680222050088</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1680222050088</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -196,7 +206,8 @@
     <MESSAGE value="Genericos2" />
     <MESSAGE value="Trabajando con consumer y solucionado error con workspace. Un final de lista no estaba...." />
     <MESSAGE value="HAsta el ejercicio 11 de Consumer, supplier y no se que mas" />
-    <option name="LAST_COMMIT_MESSAGE" value="HAsta el ejercicio 11 de Consumer, supplier y no se que mas" />
+    <MESSAGE value="Ejercicio 12. Clase programador creada." />
+    <option name="LAST_COMMIT_MESSAGE" value="Ejercicio 12. Clase programador creada." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -216,6 +227,21 @@
           <line>51</line>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Consumer/ConsumerPrueba.java</url>
+          <line>116</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Consumer/ConsumerPrueba.java</url>
+          <line>125</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Consumer/ConsumerPrueba.java</url>
+          <line>129</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/Predicate/Ciudad.java</url>
           <line>35</line>
@@ -224,6 +250,15 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/Consumer/ConsumerPrueba.java</url>
+          <line>124</line>
+          <properties class="Consumer.ConsumerPrueba" method="fabricaProgramadores">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

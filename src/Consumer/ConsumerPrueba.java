@@ -62,7 +62,7 @@ public class ConsumerPrueba {
 
         //Ejercicio 6
 
-Supplier<HashMap> crearMapa = () -> new HashMap<>();
+Supplier<HashMap> crearMapa = () -> new HashMap<String,String>();
 
 //Ejercicio 7
         BiConsumer<Integer,Integer> multiplica = (x,y) -> System.out.println(x*y);
@@ -103,14 +103,36 @@ multiplica.accept(-9,7);
         Supplier tiempo = () -> LocalDate.now();
         System.out.println("La fecha de hoy es "+tiempo.get());
 
-        //main
+        //ejercicio 12
+        Programador roger = new Programador("Roger");
+        Programador albert = new Programador("Albert");
+        Programador ricard = new Programador("Ricard");
 
+        LinkedHashMap<Integer,Programador>listadoProgramadores = new LinkedHashMap<>();
+        listadoProgramadores.put(1,roger);
+        listadoProgramadores.put(2,albert);
+        listadoProgramadores.put(3,ricard);
+
+      listadoProgramadores.forEach((key,value)->System.out.println(listadoProgramadores.get(key).getNombre()+listadoProgramadores.get(key).getSalario()+listadoProgramadores.get(key).getFechaInicio()));
+       listadoProgramadores.forEach((key,value)->fabricaProgramadores(value));
+        listadoProgramadores.forEach((key,value)->System.out.println(listadoProgramadores.get(key).getNombre()+listadoProgramadores.get(key).getSalario()+listadoProgramadores.get(key).getFechaInicio()));
+        //main
     }
 
     public static void calculator(Integer num1, Integer num2, BiConsumer<Integer,Integer> operator){
         operator.accept(num1,num2);
     }
-
+    public static Programador fabricaProgramadores(Programador alfa){
+        if (alfa.getSalario()==0){
+            Consumer<Programador> sueldoEstandar = A -> A.setSalario(50000);
+            sueldoEstandar.accept(alfa);
+        }
+        if (alfa.getFechaInicio()==null){
+            Consumer<Programador> fechaHoy = A -> A.setFechaInicio(LocalDate.now());
+            fechaHoy.accept(alfa);
+        }
+        return alfa;
+    }
 
     //class
 }
