@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.function.BiFunction;
 import java.util.function.Function;
 
 public class FunctionPrueba {
@@ -32,6 +33,21 @@ public class FunctionPrueba {
 
         System.out.println(convertirListaEnMap(listadoAlfaString,longitudText));
 
+        //Ejercicio 5
+
+        BiFunction<Integer,Integer,Integer> suma = (ee, aa) -> (ee+aa);
+        System.out.println(suma.apply(8,7));
+
+        //Ejercicio 6
+        BiFunction<Integer,Integer,Double> aDoble = (x,y) -> Math.pow(x,y);
+        System.out.println(aDoble.apply(4,6));
+
+        //Ejercicio 7
+        Function<Double,String> muestraResultado = valor -> "Resultado: "+ valor;
+
+        //Ejercicio 8
+        System.out.println(aDoble.andThen(suma).apply(2,4));
+
         //main
     }
 
@@ -43,6 +59,7 @@ public class FunctionPrueba {
         listadoOriginal.forEach((key) -> listaSalida.put(key, conversor.apply(key)));
         return listaSalida;
     }
+
 
 
     //class
