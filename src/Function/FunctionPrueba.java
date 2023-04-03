@@ -29,7 +29,7 @@ public class FunctionPrueba {
         listadoAlfaString.add("Pua tocaba a Yansha");
         listadoAlfaString.add("Goku no sabia identificar generos humanos");
         listadoAlfaString.add("Goku toco la entrepierna de Arale");
-        listadoAlfaString.add("TauPauPai era gay");
+        listadoAlfaString.add("TauPaiPai era gay");
 
         System.out.println(convertirListaEnMap(listadoAlfaString,longitudText));
 
@@ -46,7 +46,14 @@ public class FunctionPrueba {
         Function<Double,String> muestraResultado = valor -> "Resultado: "+ valor;
 
         //Ejercicio 8
-        System.out.println(aDoble.andThen(suma).apply(2,4));
+        System.out.println(aDoble.andThen(muestraResultado).apply(2,4));
+
+        //Ejercicio 9
+        potenciadoEImpreso(2,4);
+potenciadoEImpreso22(2,4);
+
+//Ejercicio 10
+        potenciadoEImpresoGenerico(aDoble,2,12);
 
         //main
     }
@@ -59,8 +66,27 @@ public class FunctionPrueba {
         listadoOriginal.forEach((key) -> listaSalida.put(key, conversor.apply(key)));
         return listaSalida;
     }
+ //Ejercicio 9 Metodo
+    public static void potenciadoEImpreso(int x, int y){
+        double potenciado = Math.pow((double)x,(double) y);
+        String textoSalida = "Resultado: "+potenciado;
+        System.out.println(textoSalida);
+    }
+
+    public static void potenciadoEImpreso22(int a, int b){
+        BiFunction<Integer,Integer,Double> aDoble = (x,y) -> Math.pow(x,y);
+        Function<Double,String> muestraResultado = valor -> "Resultado: "+ valor;
+        System.out.println(aDoble.andThen(muestraResultado).apply(a,b));
+    }
 
 
+
+    //Ejercicio 10 Metodo genérico
+
+    public static <T,R> void potenciadoEImpresoGenerico(BiFunction<T,T,R> funcion, T a,T b ){
+        Function<R,String> muestraResultado = valor -> "Resultado: "+ valor;
+        System.out.println(funcion.andThen(muestraResultado).apply(a,b));
+    }
 
     //class
 }
