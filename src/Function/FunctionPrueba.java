@@ -55,6 +55,30 @@ potenciadoEImpreso22(2,4);
 //Ejercicio 10
         potenciadoEImpresoGenerico(aDoble,2,12);
 
+        //Ejercicio 11
+        List<String> listadoBravoString = new ArrayList<>();
+        listadoBravoString.add("Pua tocaba a Yansha");
+        listadoBravoString.add("Goku no sabia identificar generos humanos");
+        listadoBravoString.add("Goku tocó la entrepierna de Arale");
+        listadoBravoString.add("TauPaiPai era gay");
+        BiFunction<String,Integer,String> debeSerMayor = (texto,distancia) -> {
+            if (texto.length()>distancia){return texto;}else{return null;}
+        };
+        for (String posicion:listadoBravoString) {
+            System.out.println(debeSerMayor.apply(posicion,20));
+        }
+
+        //Ejercicio 12
+        BiFunction<String,String,String> debeEmpezarIgual = (texto,comparador) -> {
+            if (texto.substring(0,comparador.length()).equals(comparador)){return texto;}else{return null;}
+        };
+        for (String posicion:listadoBravoString) {
+            System.out.println(debeEmpezarIgual.apply(posicion,"Goku"));
+        }
+
+        //Ejercicio 13
+        filtrarLista(listadoBravoString,2,debeSerMayor);
+
         //main
     }
 
@@ -86,6 +110,14 @@ potenciadoEImpreso22(2,4);
     public static <T,R> void potenciadoEImpresoGenerico(BiFunction<T,T,R> funcion, T a,T b ){
         Function<R,String> muestraResultado = valor -> "Resultado: "+ valor;
         System.out.println(funcion.andThen(muestraResultado).apply(a,b));
+    }
+
+    //Ejercicio 13 Metodo
+
+    public static <T,R> void filtrarLista(List<T> listado,R condicion,BiFunction<T,R,T> funcion){
+        for (T posicion:listado) {
+            System.out.println(funcion.apply(posicion,condicion));
+        }
     }
 
     //class
