@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa6dbf03-e0af-4a38-a874-b44d974f56f5" name="Changes" comment="">
+    <list default="true" id="fa6dbf03-e0af-4a38-a874-b44d974f56f5" name="Changes" comment="Ejercicio 8 empezado">
+      <change afterPath="$PROJECT_DIR$/src/Referencias/ReferenciaOne.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_31_3_23_16_18_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_31_3_23_16_18__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Function/FunctionPrueba.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Function/FunctionPrueba.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +25,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -37,10 +40,7 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+    &quot;last_opened_file_path&quot;: &quot;/home/ALU1W/Documentos/PROGRAMACION/Prgramacion avanzada/PrgAvanzada7&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -48,7 +48,7 @@
       <recent name="B:\Cerbell\GSDAW\PROGRAMACIONJAVA\UNIDAD 7\PrgAvanzada\PrgAvanzada\src\Genericos" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FunctionPrueba">
+  <component name="RunManager" selected="Application.ReferenciaOne">
     <configuration name="Ciudad" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Predicate.Ciudad" />
       <module name="PrgAvanzada" />
@@ -88,19 +88,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainPredicate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Predicate.MainPredicate" />
-      <module name="PrgAvanzada" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Predicate.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="PredicadoTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Predicate.PredicadoTest" />
       <module name="PrgAvanzada" />
@@ -114,13 +101,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ReferenciaOne" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Referencias.ReferenciaOne" />
+      <module name="PrgAvanzada" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Referencias.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ReferenciaOne" />
         <item itemvalue="Application.FunctionPrueba" />
         <item itemvalue="Application.ConsumerPrueba" />
         <item itemvalue="Application.Ciudad" />
         <item itemvalue="Application.PredicadoTest" />
-        <item itemvalue="Application.MainPredicate" />
       </list>
     </recent_temporary>
   </component>
@@ -175,36 +175,40 @@
       <option name="project" value="LOCAL" />
       <updated>1680080143540</updated>
     </task>
-    <task id="LOCAL-00007" summary="Trabajando con consumer y solucionado error con workspace. Un final de lista no estaba....">
-      <created>1680218577571</created>
+    <task id="LOCAL-00007" summary="Remate final de Predicate, Supplier">
+      <created>1680112228817</created>
       <option name="number" value="00007" />
       <option name="presentableId" value="LOCAL-00007" />
       <option name="project" value="LOCAL" />
-      <updated>1680218577571</updated>
+      <updated>1680112228817</updated>
     </task>
-    <task id="LOCAL-00008" summary="HAsta el ejercicio 11 de Consumer, supplier y no se que mas">
-      <created>1680221671266</created>
+    <task id="LOCAL-00008" summary="Creo Rama Supplier y empiezo ejercicio">
+      <created>1680272518959</created>
       <option name="number" value="00008" />
       <option name="presentableId" value="LOCAL-00008" />
       <option name="project" value="LOCAL" />
-      <updated>1680221671266</updated>
+      <updated>1680272518959</updated>
     </task>
-    <task id="LOCAL-00009" summary="Ejercicio 12. Clase programador creada.">
-      <created>1680222050088</created>
+    <task id="LOCAL-00009" summary="Hasta el ejercicio de Function">
+      <created>1680276242432</created>
       <option name="number" value="00009" />
       <option name="presentableId" value="LOCAL-00009" />
       <option name="project" value="LOCAL" />
-      <updated>1680222050088</updated>
+      <updated>1680276242432</updated>
     </task>
-    <task id="LOCAL-00010" summary="Hasta el ejercicio 10 de Function">
-      <created>1680482801344</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1680482801344</updated>
-    </task>
-    <option name="localTasksCounter" value="11" />
+    <option name="localTasksCounter" value="10" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Creamos repositorio" />
@@ -213,11 +217,10 @@
     <MESSAGE value="Todo lo del lambda creado" />
     <MESSAGE value="Genericos2 main creado" />
     <MESSAGE value="Genericos2" />
-    <MESSAGE value="Trabajando con consumer y solucionado error con workspace. Un final de lista no estaba...." />
-    <MESSAGE value="HAsta el ejercicio 11 de Consumer, supplier y no se que mas" />
-    <MESSAGE value="Ejercicio 12. Clase programador creada." />
-    <MESSAGE value="Hasta el ejercicio 10 de Function" />
-    <option name="LAST_COMMIT_MESSAGE" value="Hasta el ejercicio 10 de Function" />
+    <MESSAGE value="Remate final de Predicate, Supplier" />
+    <MESSAGE value="Creo Rama Supplier y empiezo ejercicio" />
+    <MESSAGE value="Hasta el ejercicio de Function" />
+    <option name="LAST_COMMIT_MESSAGE" value="Hasta el ejercicio de Function" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -237,21 +240,6 @@
           <line>51</line>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Consumer/ConsumerPrueba.java</url>
-          <line>116</line>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Consumer/ConsumerPrueba.java</url>
-          <line>125</line>
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Consumer/ConsumerPrueba.java</url>
-          <line>129</line>
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/Predicate/Ciudad.java</url>
           <line>35</line>
@@ -261,20 +249,7 @@
           </properties>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/Consumer/ConsumerPrueba.java</url>
-          <line>124</line>
-          <properties class="Consumer.ConsumerPrueba" method="fabricaProgramadores">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
-  </component>
-  <component name="XSLT-Support.FileAssociations.UIState">
-    <expand />
-    <select />
   </component>
 </project>
