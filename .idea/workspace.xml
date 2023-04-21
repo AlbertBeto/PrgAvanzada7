@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa6dbf03-e0af-4a38-a874-b44d974f56f5" name="Changes" comment="Empezamos la Referencia a Metodos">
-      <change afterPath="$PROJECT_DIR$/src/Stream/NeoStream.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Stream/StreamTest.java" afterDir="false" />
+    <list default="true" id="fa6dbf03-e0af-4a38-a874-b44d974f56f5" name="Changes" comment="Empezamos Streams. Ejercicios de clase.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -202,7 +200,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681928093093</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Empezamos Streams. Ejercicios de clase.">
+      <created>1682087063602</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1682087063602</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -227,7 +232,8 @@
     <MESSAGE value="Creo Rama Supplier y empiezo ejercicio" />
     <MESSAGE value="Hasta el ejercicio de Function" />
     <MESSAGE value="Empezamos la Referencia a Metodos" />
-    <option name="LAST_COMMIT_MESSAGE" value="Empezamos la Referencia a Metodos" />
+    <MESSAGE value="Empezamos Streams. Ejercicios de clase." />
+    <option name="LAST_COMMIT_MESSAGE" value="Empezamos Streams. Ejercicios de clase." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
