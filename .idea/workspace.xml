@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa6dbf03-e0af-4a38-a874-b44d974f56f5" name="Changes" comment="Ejercicio 8 empezado">
-      <change afterPath="$PROJECT_DIR$/src/Referencias/ReferenciaOne.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_31_3_23_16_18_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_31_3_23_16_18__Changes_.xml" beforeDir="false" />
+    <list default="true" id="fa6dbf03-e0af-4a38-a874-b44d974f56f5" name="Changes" comment="Empezamos la Referencia a Metodos">
+      <change afterPath="$PROJECT_DIR$/src/Stream/NeoStream.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Stream/StreamTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -48,7 +47,7 @@
       <recent name="B:\Cerbell\GSDAW\PROGRAMACIONJAVA\UNIDAD 7\PrgAvanzada\PrgAvanzada\src\Genericos" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ReferenciaOne">
+  <component name="RunManager" selected="Application.NeoStream">
     <configuration name="Ciudad" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Predicate.Ciudad" />
       <module name="PrgAvanzada" />
@@ -88,12 +87,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PredicadoTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Predicate.PredicadoTest" />
+    <configuration name="NeoStream" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Stream.NeoStream" />
       <module name="PrgAvanzada" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Predicate.*" />
+          <option name="PATTERN" value="Stream.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -116,11 +115,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.NeoStream" />
         <item itemvalue="Application.ReferenciaOne" />
         <item itemvalue="Application.FunctionPrueba" />
         <item itemvalue="Application.ConsumerPrueba" />
         <item itemvalue="Application.Ciudad" />
-        <item itemvalue="Application.PredicadoTest" />
       </list>
     </recent_temporary>
   </component>
@@ -196,7 +195,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680276242432</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Empezamos la Referencia a Metodos">
+      <created>1681928093093</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1681928093093</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -220,7 +226,8 @@
     <MESSAGE value="Remate final de Predicate, Supplier" />
     <MESSAGE value="Creo Rama Supplier y empiezo ejercicio" />
     <MESSAGE value="Hasta el ejercicio de Function" />
-    <option name="LAST_COMMIT_MESSAGE" value="Hasta el ejercicio de Function" />
+    <MESSAGE value="Empezamos la Referencia a Metodos" />
+    <option name="LAST_COMMIT_MESSAGE" value="Empezamos la Referencia a Metodos" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
