@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa6dbf03-e0af-4a38-a874-b44d974f56f5" name="Changes" comment="Empezamos Streams. Ejercicios de clase.">
-      <change afterPath="$PROJECT_DIR$/src/Stream/Dept.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Stream/Emp.java" afterDir="false" />
+    <list default="true" id="fa6dbf03-e0af-4a38-a874-b44d974f56f5" name="Changes" comment="Ejercicios básicos de Steams">
+      <change afterPath="$PROJECT_DIR$/src/Stream/EjerciciosStream.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Stream/NeoStream.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Stream/NeoStream.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Stream/StreamTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Stream/StreamTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,13 +46,13 @@
       <recent name="B:\Cerbell\GSDAW\PROGRAMACIONJAVA\UNIDAD 7\PrgAvanzada\PrgAvanzada\src\Genericos" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.StreamTest">
-    <configuration name="ConsumerPrueba" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Consumer.ConsumerPrueba" />
+  <component name="RunManager" selected="Application.EjerciciosStream">
+    <configuration name="EjerciciosStream" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Stream.EjerciciosStream" />
       <module name="PrgAvanzada" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Consumer.*" />
+          <option name="PATTERN" value="Stream.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -117,11 +114,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.EjerciciosStream" />
         <item itemvalue="Application.StreamTest" />
         <item itemvalue="Application.NeoStream" />
         <item itemvalue="Application.ReferenciaOne" />
         <item itemvalue="Application.FunctionPrueba" />
-        <item itemvalue="Application.ConsumerPrueba" />
       </list>
     </recent_temporary>
   </component>
@@ -218,7 +215,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682098215079</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Ejercicios básicos de Steams">
+      <created>1682447007559</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1682447007559</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -244,7 +248,8 @@
     <MESSAGE value="Hasta el ejercicio de Function" />
     <MESSAGE value="Empezamos la Referencia a Metodos" />
     <MESSAGE value="Empezamos Streams. Ejercicios de clase." />
-    <option name="LAST_COMMIT_MESSAGE" value="Empezamos Streams. Ejercicios de clase." />
+    <MESSAGE value="Ejercicios básicos de Steams" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ejercicios básicos de Steams" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
