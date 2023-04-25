@@ -5,7 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fa6dbf03-e0af-4a38-a874-b44d974f56f5" name="Changes" comment="Empezamos Streams. Ejercicios de clase.">
+      <change afterPath="$PROJECT_DIR$/src/Stream/Dept.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Stream/Emp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Stream/NeoStream.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Stream/NeoStream.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Stream/StreamTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Stream/StreamTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +41,7 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/ALU1W/Documentos/PROGRAMACION/Prgramacion avanzada/PrgAvanzada7&quot;
+    &quot;last_opened_file_path&quot;: &quot;/home/ALU1W/Documentos/PROGRAMACION/RecuperacionAU1AU2AU3/ONG-recuperacion&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -45,20 +49,7 @@
       <recent name="B:\Cerbell\GSDAW\PROGRAMACIONJAVA\UNIDAD 7\PrgAvanzada\PrgAvanzada\src\Genericos" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.NeoStream">
-    <configuration name="Ciudad" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Predicate.Ciudad" />
-      <module name="PrgAvanzada" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Predicate.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.StreamTest">
     <configuration name="ConsumerPrueba" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Consumer.ConsumerPrueba" />
       <module name="PrgAvanzada" />
@@ -111,13 +102,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StreamTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Stream.StreamTest" />
+      <module name="PrgAvanzada" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Stream.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StreamTest" />
         <item itemvalue="Application.NeoStream" />
         <item itemvalue="Application.ReferenciaOne" />
         <item itemvalue="Application.FunctionPrueba" />
         <item itemvalue="Application.ConsumerPrueba" />
-        <item itemvalue="Application.Ciudad" />
       </list>
     </recent_temporary>
   </component>
@@ -207,7 +211,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682087063602</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Empezamos Streams. Ejercicios de clase.">
+      <created>1682098215079</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1682098215079</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

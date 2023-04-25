@@ -51,6 +51,8 @@ for (String s:bingonum){
         bingonum.stream().filter(s -> s.startsWith("D")).sorted().forEach(System.out::println);
 bingonum.stream().map(String::toUpperCase).filter(s -> s.startsWith("D")).sorted().forEach(System.out::println);
 
+
+
         //main
     }
     //class
