@@ -63,30 +63,51 @@ public class EmpleadoStream{
         //Añade en la clase empleado el nombre del departamento al que pertenece el empleado.
         // Sobre la lista filtramos los empleados que pertenencen al departamento sistemas, luego ordenamos por nombre de forma ascendente,
         // filtramos para no hayan repetidos e imprimimos los nombres restantes.
+        System.out.println("*********************************");
 
+        Comparator<EmpleadoStream> c = (zulu1,zulu2) -> {
+            if (el1.getEdad() == el2.getEdad()){
+                return 0;
+            } else if (el1.getEdad() < el2.getEdad()) {
+                return -1;
+            } else {
+                return 1;
+            }
+        };
 
         listaEmpleados2.stream()
         .filter(empleadoStream -> empleadoStream.departamento.equals("Sistemas"))
 
         //.sorted(Comparator.reverseOrder())
         //.sorted(Comparator.comparing(emp -> emp.getNombre()))
+                .sorted(c)
         .distinct()
         .forEach(System.out::println);
 
         //Ejercicio 13. Investiga el método .reduce que sirve que le das dos valores y te devuelve 1.
-    //    listaEmpleados2.stream().filter(empleadoStream -> empleadoStream.getDepartamento().equals("Sistemas")).reduce((empleadoStream, empleadoStream2) -> empleadoStream.getNombre()+"-"+empleadoStream2.getNombre()));
+
+        System.out.println("------------------------------------------------------------");
+     /*
+       listaEmpleados2.stream()
+               //.peek(System.out::println)
+               //.flatMap()
+               .filter(empleadoStream -> empleadoStream.getDepartamento().equals("Sistemas"))
+               .peek(System.out::println)
+               .reduce((empleadoStream, empleadoStream2) -> empleadoStream.getNombre()+"-"+empleadoStream2.getNombre()));
+
+      */
+
+        List<Integer> listadoNumeros = Arrays.asList(0,1,2,3,4,5,6,7,8,9);
+        System.out.println( listadoNumeros.stream()
+                .filter(integer -> integer<4)
+                .reduce((integer, integer2) -> integer+integer2));
+
+        List<String> listadoPalabras = Arrays.asList("Alfa ","Bravo ","Charlie ","Delta ","Eco ","Foxtrot ","Golf ","Hotel");
+        System.out.println(listadoPalabras.stream().reduce((s, s2) -> s+s2));
 
 //main
     }
-/*
-    @Override
-    public int compareTo(Object o) {
-        EmpleadoStream alfa = (EmpleadoStream) o;
 
-        return this.getNombre().compareTo(alfa.getNombre());
-    }
-
- */
 
 
     //class
