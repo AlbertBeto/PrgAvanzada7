@@ -59,6 +59,25 @@ public class EjerciciosStream {
         System.out.println(listadoStrings.stream().filter(s -> s.contains("a")).count());
 
         //Ejercicio 8
+        System.out.println("Octavo Ejercicio");
+        List<String> listaPalabras = new ArrayList<>();
+
+        listaPalabras.add(text1);
+        listaPalabras.add(text2);
+        listaPalabras.add(text3);
+        listaPalabras.add(text4);
+
+        listaPalabras.stream()
+                .filter(s -> s.startsWith("C"))
+                .map(s -> s.toUpperCase())
+                .sorted()
+                .forEach(System.out::println);
+
+        System.out.println("Vamos a realizar una segunda lectura del ejercicio");
+        List<String> harmony = listaPalabras.stream().filter(s -> s.startsWith("C")).map(s -> s.toUpperCase()).toList();
+        harmony.stream().sorted().forEach(System.out::println);
+
+        //Ejercicio 9
 
 
         //main
