@@ -65,6 +65,22 @@ public class StreamTest {
                 //.sorted(Comparator.comparing(Emp::get.Salario, (o1,o2) -> (int) (o2 - o1))) //Con el comparing se introduce los valores del comparator.
                 .forEach(System.out::println);
 
+        Comparator<Emp> c = (el1,el2) -> {
+            if (el1.getEdad() == el2.getEdad()){
+                return 0;
+            } else if (el1.getEdad() < el2.getEdad()) {
+                return -1;
+            } else {
+                return 1;
+            }
+        };
+        System.out.println("********");
+        empresa.stream()
+                .flatMap(dept -> dept.getEmps().stream())
+                .filter(emp -> emp.getSalario()>=1500&&emp.getSalario()<=2000) //Aqui podria poner el predicate filtrado
+                .sorted(Comparator.comparing(Emp::getEdad))
+                .forEach(System.out::println);
+
 
         // FORMAS DE CREAR STREAMS
         //Stream a partir de una colección

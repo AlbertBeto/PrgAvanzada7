@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa6dbf03-e0af-4a38-a874-b44d974f56f5" name="Changes" comment="Modificado y solucionado el 12 gracias a realizar un compareTo.....&#10;Falta acabar el 13">
+    <list default="true" id="fa6dbf03-e0af-4a38-a874-b44d974f56f5" name="Changes" comment="Entrada de diferentes tipos de Stream. Y modificacion del StreamTest">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Stream/Emp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Stream/Emp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Stream/EmpleadoStream.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Stream/EmpleadoStream.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Stream/StreamTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Stream/StreamTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -229,7 +229,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682521965634</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Entrada de diferentes tipos de Stream. Y modificacion del StreamTest">
+      <created>1682533912766</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1682533912766</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -257,7 +264,8 @@
     <MESSAGE value="Empezamos Streams. Ejercicios de clase." />
     <MESSAGE value="Ejercicios básicos de Steams" />
     <MESSAGE value="Modificado y solucionado el 12 gracias a realizar un compareTo.....&#10;Falta acabar el 13" />
-    <option name="LAST_COMMIT_MESSAGE" value="Modificado y solucionado el 12 gracias a realizar un compareTo.....&#10;Falta acabar el 13" />
+    <MESSAGE value="Entrada de diferentes tipos de Stream. Y modificacion del StreamTest" />
+    <option name="LAST_COMMIT_MESSAGE" value="Entrada de diferentes tipos de Stream. Y modificacion del StreamTest" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -276,14 +284,6 @@
           <url>file://$PROJECT_DIR$/src/Predicate/Ciudad.java</url>
           <line>51</line>
           <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Stream/StreamTest.java</url>
-          <line>104</line>
-          <properties>
-            <option name="lambda-ordinal" value="-1" />
-          </properties>
-          <option name="timeStamp" value="7" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/Predicate/Ciudad.java</url>

@@ -6,7 +6,7 @@ import java.util.Comparator;
 import java.util.List;
 
 
-public class EmpleadoStream implements Comparable{
+public class EmpleadoStream{
 
     private String nombre;
     private int edad;
@@ -63,10 +63,13 @@ public class EmpleadoStream implements Comparable{
         //Añade en la clase empleado el nombre del departamento al que pertenece el empleado.
         // Sobre la lista filtramos los empleados que pertenencen al departamento sistemas, luego ordenamos por nombre de forma ascendente,
         // filtramos para no hayan repetidos e imprimimos los nombres restantes.
-listaEmpleados2.stream()
+
+
+        listaEmpleados2.stream()
         .filter(empleadoStream -> empleadoStream.departamento.equals("Sistemas"))
+
         //.sorted(Comparator.reverseOrder())
-        .sorted()
+        //.sorted(Comparator.comparing(emp -> emp.getNombre()))
         .distinct()
         .forEach(System.out::println);
 
@@ -75,13 +78,17 @@ listaEmpleados2.stream()
 
 //main
     }
-
+/*
     @Override
     public int compareTo(Object o) {
         EmpleadoStream alfa = (EmpleadoStream) o;
 
         return this.getNombre().compareTo(alfa.getNombre());
     }
+
+ */
+
+
     //class
 }
 
