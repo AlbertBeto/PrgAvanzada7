@@ -5,7 +5,8 @@ import java.util.Arrays;
 import java.util.Comparator;
 import java.util.List;
 
-public class EmpleadoStream {
+
+public class EmpleadoStream implements Comparable{
 
     private String nombre;
     private int edad;
@@ -16,6 +17,15 @@ public class EmpleadoStream {
         this.nombre = nombre;
         this.edad = edad;
         this.departamento = departamento;
+    }
+
+    @Override
+    public String toString() {
+        return "EmpleadoStream{" +
+                "nombre='" + nombre + '\'' +
+                ", edad=" + edad +
+                ", departamento='" + departamento + '\'' +
+                '}';
     }
 
     public String getNombre() {
@@ -37,9 +47,9 @@ public class EmpleadoStream {
         EmpleadoStream el4 = new EmpleadoStream("Delta", 38, "Produccion");
         List<EmpleadoStream> listaEmpleados2 = new ArrayList<>();
         listaEmpleados2.add(el1);
-        listaEmpleados2.add(el2);
-        listaEmpleados2.add(el3);
         listaEmpleados2.add(el4);
+        listaEmpleados2.add(el3);
+        listaEmpleados2.add(el2);
 //Ejercicio 9. Devuelve una lista que contenga el nombre de los trabajadores.
        System.out.println(listaEmpleados2.stream().map(empleadoStream -> empleadoStream.nombre).toList());
 
@@ -55,14 +65,22 @@ public class EmpleadoStream {
         // filtramos para no hayan repetidos e imprimimos los nombres restantes.
 listaEmpleados2.stream()
         .filter(empleadoStream -> empleadoStream.departamento.equals("Sistemas"))
-        //.sorted((f1, f2) -> )
+        //.sorted(Comparator.reverseOrder())
+        .sorted()
         .distinct()
         .forEach(System.out::println);
 
         //Ejercicio 13. Investiga el método .reduce que sirve que le das dos valores y te devuelve 1.
-        listaEmpleados2.stream().filter(empleadoStream -> empleadoStream.getDepartamento().equals("Sistemas")).reduce((empleadoStream, empleadoStream2) -> empleadoStream.getNombre()+"-"+empleadoStream2.getNombre()))
+    //    listaEmpleados2.stream().filter(empleadoStream -> empleadoStream.getDepartamento().equals("Sistemas")).reduce((empleadoStream, empleadoStream2) -> empleadoStream.getNombre()+"-"+empleadoStream2.getNombre()));
 
 //main
+    }
+
+    @Override
+    public int compareTo(Object o) {
+        EmpleadoStream alfa = (EmpleadoStream) o;
+
+        return this.getNombre().compareTo(alfa.getNombre());
     }
     //class
 }
