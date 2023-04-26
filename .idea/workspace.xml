@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa6dbf03-e0af-4a38-a874-b44d974f56f5" name="Changes" comment="Ejercicios básicos de Streams hasta el 8">
+    <list default="true" id="fa6dbf03-e0af-4a38-a874-b44d974f56f5" name="Changes" comment="Modificado y solucionado el 12 gracias a realizar un compareTo.....&#10;Falta acabar el 13">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Stream/EmpleadoStream.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Stream/EmpleadoStream.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Stream/Emp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Stream/Emp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Stream/StreamTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Stream/StreamTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +46,7 @@
       <recent name="B:\Cerbell\GSDAW\PROGRAMACIONJAVA\UNIDAD 7\PrgAvanzada\PrgAvanzada\src\Genericos" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.EmpleadoStream">
+  <component name="RunManager" selected="Application.StreamTest">
     <configuration name="EjerciciosStream" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Stream.EjerciciosStream" />
       <module name="PrgAvanzada" />
@@ -113,9 +114,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StreamTest" />
         <item itemvalue="Application.EmpleadoStream" />
         <item itemvalue="Application.EjerciciosStream" />
-        <item itemvalue="Application.StreamTest" />
         <item itemvalue="Application.NeoStream" />
         <item itemvalue="Application.ReferenciaOne" />
       </list>
@@ -221,7 +222,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682447007559</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Modificado y solucionado el 12 gracias a realizar un compareTo.....&#10;Falta acabar el 13">
+      <created>1682521965634</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1682521965634</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -248,7 +256,8 @@
     <MESSAGE value="Empezamos la Referencia a Metodos" />
     <MESSAGE value="Empezamos Streams. Ejercicios de clase." />
     <MESSAGE value="Ejercicios básicos de Steams" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ejercicios básicos de Steams" />
+    <MESSAGE value="Modificado y solucionado el 12 gracias a realizar un compareTo.....&#10;Falta acabar el 13" />
+    <option name="LAST_COMMIT_MESSAGE" value="Modificado y solucionado el 12 gracias a realizar un compareTo.....&#10;Falta acabar el 13" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -267,6 +276,14 @@
           <url>file://$PROJECT_DIR$/src/Predicate/Ciudad.java</url>
           <line>51</line>
           <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Stream/StreamTest.java</url>
+          <line>104</line>
+          <properties>
+            <option name="lambda-ordinal" value="-1" />
+          </properties>
+          <option name="timeStamp" value="7" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/Predicate/Ciudad.java</url>

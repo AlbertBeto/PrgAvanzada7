@@ -1,20 +1,20 @@
 package Stream;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-import java.util.Set;
+import java.util.*;
+import java.util.function.Predicate;
 import java.util.stream.Collectors;
+import java.util.stream.IntStream;
+import java.util.stream.Stream;
 
 public class StreamTest {
 
     public static void main(String[] args) {
 
-        Emp e1 = new Emp("Robert", 34);
-        Emp e2 = new Emp("Josef", 19);
-        Emp e3 = new Emp("Mathew", 45);
-        Emp e4 = new Emp("Christine", 32);
-        Emp e5 = new Emp("Magdalene", 64);
+        Emp e1 = new Emp("Robert", 34, 2000);
+        Emp e2 = new Emp("Josef", 19, 1500);
+        Emp e3 = new Emp("Mathew", 45, 1000);
+        Emp e4 = new Emp("Christine", 32, 1000);
+        Emp e5 = new Emp("Magdalene", 64, 1400);
 
         Dept dInf = new Dept("Informatica");
 
@@ -53,6 +53,57 @@ public class StreamTest {
                 .filter(emp -> emp.getEdad()>40)
                 .map(emp -> emp.getNombre())
                 .forEach(System.out::println);
+
+        //Mostrar todos los empleados consalario entre 1500 y 2000, ordenados ascendentemente por salario.
+        Predicate<Emp> filtrado = emp -> emp.getSalario()>=1500&&emp.getSalario()<=2000;
+        Comparator<Emp> comparator = (o1, o2) -> (int) (o1.getSalario() - o2.getSalario());
+
+        empresa.stream()
+                .flatMap(dept -> dept.getEmps().stream())
+                .filter(emp -> emp.getSalario()>=1500&&emp.getSalario()<=2000) //Aqui podria poner el predicate filtrado
+                .sorted(Comparator.comparing(emp -> emp.getSalario()))
+                //.sorted(Comparator.comparing(Emp::get.Salario, (o1,o2) -> (int) (o2 - o1))) //Con el comparing se introduce los valores del comparator.
+                .forEach(System.out::println);
+
+
+        // FORMAS DE CREAR STREAMS
+        //Stream a partir de una colección
+        List<String> lista = Arrays.asList("A", "B");
+        lista.stream();
+
+        //Lista de argumentos
+        Stream.of("A", "B");
+
+        Stream.of(new Emp("Joseph", 125, 1));
+
+        //Arrays de enteros
+        Stream.of(new int[]{1,2});
+
+        Stream<Integer> stream = Stream.of(1,2,3);
+
+        //Stream de objetos
+       // Arrays.stream(new Object[]{new Emp("Sara",22,1100), new Dept("Pimpollos")};
+
+        //Steam de supplier
+        Stream.generate(() -> Arrays.asList(1,2,3));
+
+        //
+        IntStream.range(0,11);
+        //Sumar los 10 primeros números
+        //System.out.println(IntStream.range(0,11).sum());
+
+        //Bucle infinito
+        //Stream.iterate(0,i -> i+1).forEach(System.out::println);
+        //Bucle limitado
+       // Stream.iterate(0,i -> i+1).limit(10).forEach(System.out::println);
+        //Aqui limitamos el bucle sin limit
+       Stream.iterate(0, i -> i<10, i -> i+1).forEach(System.out::println);;
+
+        // Empezamos desde ', queremos mostrar las 5 primeras combinaciones
+        // de los pares a partir del 10, es decir 12,14,16
+
+Stream.iterate(0, i -> i+1).filter(i-> i % 2 ==0).skip(6).limit(5).forEach(System.out::println);
+
 
 
         /*
