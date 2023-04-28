@@ -3,6 +3,7 @@ package Stream;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+import java.util.stream.Collectors;
 
 public class EjerciciosStream2 {
 
@@ -96,9 +97,57 @@ public class EjerciciosStream2 {
                 .forEach(System.out::println);
 
 
-        //Ejercicio 5
+        //Ejercicio 5 Tenemos una clase Punto.java y la siguiente lista de puntos. Usando streams calcula:
+        // a. La suma de todas las coordenadas X. Ayúdate de las operaciones mapToInt y reduce.
+        //Imprime el resultado para ello ayúdate de la operación ifPresent. ¿Qué imprimiría si la
+        //lista de puntos estuviera vacía?
+        //b. Ahora calcula la suma de todas las coordenadas X pero usando las operaciones
+        //mapToInt y sum. Haz debug en el stream y muestra que los valores de las coordenadas
+        //son las x.
+        //c. Filtra todos los puntos que sean positivos en las coordenadas X y devuélvelos en una
+        //nueva lista.
 
         System.out.println("********************* Ejercicio 5 *************************");
+
+        List<Punto> puntos = new ArrayList<>();
+
+        puntos.add(new Punto(-4,-8));
+        puntos.add(new Punto(-2,9));
+        puntos.add(new Punto(-1,-8));
+        puntos.add(new Punto(0,-7));
+        puntos.add(new Punto(1,1));
+        puntos.add(new Punto(2,3));
+        puntos.add(new Punto(2,3));
+        puntos.add(new Punto(2,-2));
+        puntos.add(new Punto(4,-1));
+
+        //A)La suma de todas las coordenadas X. Ayúdate de las operaciones mapToInt y reduce.
+        //  Imprime el resultado para ello ayúdate de la operación ifPresent. ¿Qué imprimiría si la
+        //  lista de puntos estuviera vacía?
+
+        System.out.println(puntos.stream()
+                .mapToInt(value -> value.getX())
+                        .reduce((left, right) -> left+right));
+
+        //B) Ahora calcula la suma de todas las coordenadas X pero usando las operaciones
+        //mapToInt y sum. Haz debug en el stream y muestra que los valores de las coordenadas
+        //son las x.
+        System.out.println("El total de la suma es "+
+        puntos.stream()
+                .mapToInt(value -> value.getX())
+                .peek(System.out::println)
+                .sum());
+
+        //c. Filtra todos los puntos que sean positivos en las coordenadas X y devuélvelos en una
+        //nueva lista.
+
+        puntos.stream()
+                .mapToInt(Punto::getX)
+                .filter(value -> value>=0)
+                .toArray();
+
+
+
 
 
 //main
