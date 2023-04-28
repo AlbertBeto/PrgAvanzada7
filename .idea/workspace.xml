@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa6dbf03-e0af-4a38-a874-b44d974f56f5" name="Changes" comment="Mod PAtroi">
-      <change afterPath="$PROJECT_DIR$/src/ExpresionesRegulares/ExpresionesRegulares.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="fa6dbf03-e0af-4a38-a874-b44d974f56f5" name="Changes" comment="Expresiones Regulares">
+      <change beforePath="$PROJECT_DIR$/src/Stream/EjerciciosStream2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Stream/EjerciciosStream2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Stream/Pedido.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Stream/Pedido.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Stream/Producto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Stream/Producto.java" afterDir="false" />
     </list>
@@ -238,7 +237,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682533912766</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Expresiones Regulares">
+      <created>1682694038068</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1682694038068</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -267,7 +273,8 @@
     <MESSAGE value="Ejercicios básicos de Steams" />
     <MESSAGE value="Modificado y solucionado el 12 gracias a realizar un compareTo.....&#10;Falta acabar el 13" />
     <MESSAGE value="Entrada de diferentes tipos de Stream. Y modificacion del StreamTest" />
-    <option name="LAST_COMMIT_MESSAGE" value="Entrada de diferentes tipos de Stream. Y modificacion del StreamTest" />
+    <MESSAGE value="Expresiones Regulares" />
+    <option name="LAST_COMMIT_MESSAGE" value="Expresiones Regulares" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

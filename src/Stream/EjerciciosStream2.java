@@ -1,5 +1,6 @@
 package Stream;
 
+import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Comparator;
@@ -253,7 +254,11 @@ public class EjerciciosStream2 {
 
         //Ejercicio 8
 
+Producto p1 = new Producto(1122L, "Caja", "Alfa", 20.20);
+Cliente clie1 = new Cliente(88999L, "Gamba");
+Pedido ped1 = new Pedido(111L, LocalDate.of(2020,12,01), LocalDate.of(2020,12,15),"Pendiente", clie1);
 
+p1.addOrder(ped1);
 
 //main
     }

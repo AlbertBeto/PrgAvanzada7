@@ -1,19 +1,22 @@
 package Stream;
 
+import java.util.HashSet;
+import java.util.Set;
+
 public class Producto {
 
     private Long id;
     private String nombre;
     private String categoria;
     private double precio;
-    //private Set<Pedido> orders;
+    private Set<Pedido> orders;
 
     public Producto(Long id, String nombre, String categoria, double precio) {
         this.id = id;
         this.nombre = nombre;
         this.categoria = categoria;
         this.precio = precio;
-
+this.orders = new HashSet<>();
     }
 
     public Long getId() {
@@ -46,6 +49,10 @@ public class Producto {
 
     public void setPrecio(double precio) {
         this.precio = precio;
+    }
+
+    public  void addOrder(Pedido ped){
+        orders.add(ped);
     }
 
 

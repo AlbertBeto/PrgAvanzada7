@@ -1,6 +1,8 @@
 package Stream;
 
 import java.time.LocalDate;
+import java.util.HashSet;
+import java.util.Set;
 
 public class Pedido {
     private Long id;
@@ -8,7 +10,7 @@ public class Pedido {
     private LocalDate fechaEntrega;
     private String estado;
     private Cliente cliente;
-    //Set<Producto> productos;
+    Set<Producto> productos;
 
     public Pedido(Long id, LocalDate fechaPedido, LocalDate fechaEntrega, String estado, Cliente cliente) {
         this.id = id;
@@ -16,6 +18,7 @@ public class Pedido {
         this.fechaEntrega = fechaEntrega;
         this.estado = estado;
         this.cliente = cliente;
+        this.productos = new HashSet<>();
     }
 
     public Long getId() {
@@ -57,6 +60,8 @@ public class Pedido {
     public void setCliente(Cliente cliente) {
         this.cliente = cliente;
     }
-
+    public  void addProduct(Producto pro){
+        productos.add(pro);
+    }
     //class
 }
