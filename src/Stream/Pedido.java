@@ -60,8 +60,6 @@ public class Pedido {
     public void setCliente(Cliente cliente) {
         this.cliente = cliente;
     }
-    public  void addProduct(Producto pro){
-        productos.add(pro);
-    }
+
     //class
 }

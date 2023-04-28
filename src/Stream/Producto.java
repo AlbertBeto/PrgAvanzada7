@@ -51,9 +51,7 @@ this.orders = new HashSet<>();
         this.precio = precio;
     }
 
-    public  void addOrder(Pedido ped){
-        orders.add(ped);
-    }
+
 
 
 

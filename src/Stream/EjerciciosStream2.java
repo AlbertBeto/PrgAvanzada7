@@ -254,11 +254,106 @@ public class EjerciciosStream2 {
 
         //Ejercicio 8
 
-Producto p1 = new Producto(1122L, "Caja", "Alfa", 20.20);
-Cliente clie1 = new Cliente(88999L, "Gamba");
-Pedido ped1 = new Pedido(111L, LocalDate.of(2020,12,01), LocalDate.of(2020,12,15),"Pendiente", clie1);
+        List<Producto> listadoProductos = new ArrayList<>();
+        Producto pro1 = new Producto(1122L, "Cable USB C 1m", "IT", 3.20);
+        Producto pro2 = new Producto(3311L, "Play Station 5 refurbished", "Juguetes", 380.50);
+        Producto pro6 = new Producto(3312L, "Puzzle Guardianes de la Galaxia", "Juguetes", 15.49);
+        Producto pro3 = new Producto(1123L, "Altavoces Creative Faulont 2.1", "IT", 59.99);
+        Producto pro4 = new Producto(2211L, "Pantalones Levis 501", "Ropa", 115.99);
+        Producto pro5 = new Producto(2212L, "Camiseta Obey Killing", "Ropa", 39.99);
+        Producto pro8 = new Producto(4411L, "Tropas del Espacio", "Libros", 8.99);
+        Producto pro7 = new Producto(4412L, "Tigre Tigre Tigre", "Libros", 14.99);
 
-p1.addOrder(ped1);
+        Cliente vip1 = new Cliente(666552525L, "MediaMarket Shop1");
+        Cliente vip2 = new Cliente(666656565L, "MediaMarket Shop2");
+        Cliente vip3 = new Cliente(888656565L, "PekinBonito");
+
+        List<Pedido> listadoPedidos = new ArrayList<>();
+        Pedido ped1 = new Pedido(1111L, LocalDate.of(2020,12,01), LocalDate.of(2020,12,15),"Servido", vip1);
+        Pedido ped2 = new Pedido(1112L, LocalDate.of(2021,06,15),LocalDate.of(2021,06,30),"Servido", vip1 );
+        Pedido ped3 = new Pedido(1113L, LocalDate.of(2023,02,01),LocalDate.of(2023,02,15),"No Pago", vip1 );
+        Pedido ped4 = new Pedido(1114L, LocalDate.of(2023,04,01),LocalDate.of(2023,04,7),"No Pago", vip2 );
+        Pedido ped5 = new Pedido(1115L, LocalDate.of(2023,04,21),LocalDate.of(2023,04,25),"Pendiente", vip2 );
+        Pedido ped6 = new Pedido(1115L, LocalDate.of(2023,04,27),LocalDate.of(2023,04,28),"Pendiente", vip3 );
+
+        listadoProductos.add(pro1);
+        listadoProductos.add(pro2);
+        listadoProductos.add(pro3);
+        listadoProductos.add(pro4);
+        listadoProductos.add(pro5);
+        listadoProductos.add(pro6);
+        listadoProductos.add(pro7);
+        listadoProductos.add(pro8);
+
+        listadoPedidos.add(ped1);
+        listadoPedidos.add(ped2);
+        listadoPedidos.add(ped3);
+        listadoPedidos.add(ped4);
+        listadoPedidos.add(ped5);
+        listadoPedidos.add(ped6);
+
+        ped1.productos.add(pro3);
+        ped1.productos.add(pro6);
+        ped1.productos.add(pro8);
+        ped1.productos.add(pro7);
+
+        ped2.productos.add(pro1);
+        ped2.productos.add(pro3);
+        ped2.productos.add(pro3); //Como es un set creo que no guarda repetidos y como no hay campo cantidad lo mejor seria montar otro tipo de lista
+
+        ped3.productos.add(pro8);
+        ped3.productos.add(pro7);
+        ped3.productos.add(pro3);
+
+        ped4.productos.add(pro3);
+        ped4.productos.add(pro6);
+        ped4.productos.add(pro8);
+        ped4.productos.add(pro7);
+
+        ped5.productos.add(pro2);
+        ped5.productos.add(pro4);
+        ped5.productos.add(pro3);
+        ped5.productos.add(pro1);
+
+        ped6.productos.add(pro4);
+        ped6.productos.add(pro5);
+        ped6.productos.add(pro1);
+        ped6.productos.add(pro3);
+
+
+        System.out.println("------------------------ Ejercicio 8 ------------------------------");
+        System.out.println("");
+
+        //a. Obtener de la lista de productos, una lista de productos de la categoría “IT” con precio > 50.
+        listadoProductos.stream()
+                .filter(producto -> producto.getCategoria().equals("IT"))
+                .filter(producto -> producto.getPrecio()>50)
+                .peek(producto -> System.out.println(producto.getNombre()))
+                .toList();
+
+        //b. Imprime de la lista de pedidos, todos los pedidos con productos pertenecientes a la
+        // categoría de “Ropa”.
+
+        /*
+        listadoPedidos.stream()
+                .filter(pedido. -> pedido.productos.contains())
+        */
+
+
+        // c. De la lista de productos, crea una lista de productos de la categoría “Juguetes” y aplícales
+        //un 10% de descuento. Ayuda: usar filter, map y collect.
+
+        listadoProductos.stream()
+                .filter(producto -> producto.getCategoria().equals("Juguetes"))
+                //.map(producto -> producto.getPrecio()-(producto.getPrecio()*0.1))
+                .map(producto -> producto.setPrecio(producto.getPrecio()-(producto.getPrecio()*0.1)))
+                //.forEach(producto -> producto.setPrecio(producto.getPrecio()-(producto.getPrecio()*0.1)))
+
+                //.peek(System.out::println)
+                .collect(Collectors.toList());
+
+
+
 
 //main
     }
