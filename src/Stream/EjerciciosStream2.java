@@ -2,6 +2,7 @@ package Stream;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Comparator;
 import java.util.List;
 import java.util.stream.Collectors;
 
@@ -147,7 +148,96 @@ public class EjerciciosStream2 {
                 .toArray();
 
 
+        //Ejercicio 6 Calcula la siguiente información
+        //a. Imprime el número de jugadores.
+        //b. Imprime la media de puntuaciones de todos los jugadores.
+        //c. Imprime el número de jugadores que obtuvo una puntuación mayor o igual a 90.
+        //d. Usa collect() para crear una lista de String que contenga el nombre de los jugadores cuya
+        //puntuación fue menor a 70.
+        //e. Imprime los nombres de la lista generada en el apartado anterior.
+        //f. Imprime los nombres y puntuaciones de todos los jugadores ordenados por apellido.
+        //g. Imprime los nombres y puntuaciones de todos los jugadores ordenados por puntuación.
+        //h. Devuelve el último jugador de la lista.
 
+        System.out.println("********************* Ejercicio 6 *************************");
+
+        List<PuntuacionJugador> puntuaciones = Arrays.asList(
+                new PuntuacionJugador("Patricia","Martí",70),
+                new PuntuacionJugador("Pablo","Díaz",85),
+                new PuntuacionJugador("Ana","Alice",82),
+                new PuntuacionJugador("Cooper","Jill",97),
+                new PuntuacionJugador("Francisco","Fred",66),
+                new PuntuacionJugador("Alicia","Barney",80),
+                new PuntuacionJugador("Pablo","Judy",48),
+                new PuntuacionJugador("María","James",90),
+                new PuntuacionJugador("Claudia","Joe",55),
+                new PuntuacionJugador("Pepe","Bill",73),
+                new PuntuacionJugador("Noah","Mary",54),
+                new PuntuacionJugador("Pablo","Chris",78),
+                new PuntuacionJugador("David","Pat",51),
+                new PuntuacionJugador("Javier","Omar",93),
+                new PuntuacionJugador("Patricia","Ann",95)
+        );
+
+        //a. Imprime el número de jugadores.
+        System.out.println("Cuantos Jugadores");
+        System.out.println( puntuaciones.stream()
+                .count());
+
+        //b. Imprime la media de puntuaciones de todos los jugadores.
+        System.out.println("La media de puntos es");
+        System.out.println(puntuaciones.stream()
+                .mapToInt(value -> value.puntuacion)
+                .average()
+                .orElse(0.0)); //Esto es para quitar el OptionalDouble que aparecía al imprimir el average
+
+        //c. Imprime el número de jugadores que obtuvo una puntuación mayor o igual a 90.
+        System.out.println("La cantidad de jugadores con mayor puntuacion de 90");
+        System.out.println(puntuaciones.stream()
+                .mapToInt(value -> value.puntuacion)
+                        .filter(value -> value>=90)
+                .count()
+        );
+
+        //d. Usa collect() para crear una lista de String que contenga el nombre de los jugadores cuya
+        //puntuación fue menor a 70.
+
+        puntuaciones.stream()
+                .filter(puntuacionJugador -> puntuacionJugador.puntuacion<70)
+                .map(puntuacionJugador -> puntuacionJugador.nombre)
+                .collect(Collectors.toList());
+
+        //e. Imprime los nombres de la lista generada en el apartado anterior.
+        System.out.println("Los nombres de los jugadores con menos de 70 puntos");
+
+        puntuaciones.stream()
+                .filter(puntuacionJugador -> puntuacionJugador.puntuacion<70)
+                .map(puntuacionJugador -> puntuacionJugador.nombre)
+                .collect(Collectors.toList()).stream().forEach(System.out::println);
+
+        //f. Imprime los nombres y puntuaciones de todos los jugadores ordenados por apellido.
+        System.out.println("Imprime nombre y puntuaciones tras ordenar por apellidos");
+        puntuaciones.stream()
+                .sorted(Comparator.comparing(puntuacionJugador -> puntuacionJugador.apellido))
+                .map(value -> value.nombre+ " " + value.puntuacion)
+                .forEach(System.out::println);
+
+        //g. Imprime los nombres y puntuaciones de todos los jugadores ordenados por puntuación.
+
+        System.out.println("Imprime nombre y puntuaciones ordenados por puntuación");
+
+        puntuaciones.stream()
+                .sorted(Comparator.comparing(puntuacionJugador -> puntuacionJugador.puntuacion))
+                .map(puntuacionJugador -> puntuacionJugador.nombre + " " + puntuacionJugador.puntuacion)
+                .forEach(System.out::println);
+
+
+        //h. Devuelve el último jugador de la lista.
+        System.out.println("Imprime el último de la lista");
+        puntuaciones.stream()
+                .skip(puntuaciones.size()-1)
+                .map(puntuacionJugador -> puntuacionJugador.nombre + " " + puntuacionJugador.apellido + " " + puntuacionJugador.puntuacion)
+                .forEach(System.out::println);
 
 
 //main
