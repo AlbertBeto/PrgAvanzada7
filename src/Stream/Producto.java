@@ -6,7 +6,7 @@ public class Producto {
     private String nombre;
     private String categoria;
     private double precio;
-    private Set<Pedido> orders;
+    //private Set<Pedido> orders;
 
     public Producto(Long id, String nombre, String categoria, double precio) {
         this.id = id;

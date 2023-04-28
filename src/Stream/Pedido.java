@@ -8,7 +8,7 @@ public class Pedido {
     private LocalDate fechaEntrega;
     private String estado;
     private Cliente cliente;
-    Set<Producto> productos;
+    //Set<Producto> productos;
 
     public Pedido(Long id, LocalDate fechaPedido, LocalDate fechaEntrega, String estado, Cliente cliente) {
         this.id = id;
