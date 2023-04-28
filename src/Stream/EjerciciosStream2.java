@@ -239,6 +239,21 @@ public class EjerciciosStream2 {
                 .map(puntuacionJugador -> puntuacionJugador.nombre + " " + puntuacionJugador.apellido + " " + puntuacionJugador.puntuacion)
                 .forEach(System.out::println);
 
+        //Ejercicio 7 Dado el siguiente array, imprime todos los caracteres que sean distintos de “a”.
+
+        System.out.println("********************* Ejercicio 7 *************************");
+
+        List<List<String>> array = Arrays.asList(Arrays.asList("a", "b"),
+                Arrays.asList("c", "d"), Arrays.asList("e", "f"));
+
+        array.stream()
+                .flatMap(strings -> strings.stream())
+                .filter(s -> !s.equals("a"))
+                .forEach(System.out::println);
+
+        //Ejercicio 8
+
+
 
 //main
     }

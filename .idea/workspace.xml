@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fa6dbf03-e0af-4a38-a874-b44d974f56f5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Stream/PuntuacionJugador.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Stream/Cliente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Stream/Pedido.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Stream/Producto.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Stream/EjerciciosStream2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Stream/EjerciciosStream2.java" afterDir="false" />
     </list>
@@ -111,14 +113,22 @@
       <option name="project" value="LOCAL" />
       <updated>1682641339484</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Acabado el 6">
+      <created>1682644029014</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1682644029014</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Acabados los Streams" />
     <MESSAGE value="Realizados hasta ahora los 4 ejercicios de Streams2.&#10;Empiezo el quinto" />
     <MESSAGE value="Acabado el 5" />
-    <option name="LAST_COMMIT_MESSAGE" value="Acabado el 5" />
+    <MESSAGE value="Acabado el 6" />
+    <option name="LAST_COMMIT_MESSAGE" value="Acabado el 6" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
