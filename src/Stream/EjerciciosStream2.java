@@ -345,12 +345,16 @@ public class EjerciciosStream2 {
 
         listadoProductos.stream()
                 .filter(producto -> producto.getCategoria().equals("Juguetes"))
-                //.map(producto -> producto.getPrecio()-(producto.getPrecio()*0.1))
-                .map(producto -> producto.setPrecio(producto.getPrecio()-(producto.getPrecio()*0.1)))
+                .map(producto -> producto.getPrecio()-(producto.getPrecio()*0.1))
+                //.map(producto -> producto.setPrecio(producto.getPrecio()-(producto.getPrecio()*0.1)))
                 //.forEach(producto -> producto.setPrecio(producto.getPrecio()-(producto.getPrecio()*0.1)))
 
-                //.peek(System.out::println)
+                .peek(System.out::println)
                 .collect(Collectors.toList());
+
+
+        listadoProductos.stream()
+                .map(producto -> producto.getPrecio())
 
 
 
