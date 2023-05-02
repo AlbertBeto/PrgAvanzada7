@@ -81,6 +81,7 @@ String rg = " ";
         html.append("<h2>Resumen</h2>");
         html.append("<p>Fin de html</p>");
 
+        /*
         Pattern pattern = Pattern.compile(".*<h2>.*");
         Matcher matcher = pattern.matcher(html);
         System.out.println(matcher.matches());
@@ -92,10 +93,70 @@ while(matcher.find()){
     System.out.println("Coincidencia " + i + " en posición"
     + matcher.start() + " hasta " + matcher.end()
     );
+*/
+//con groups
+        Pattern pattern = Pattern.compile("(<h2>)(.*?)(</h2>)"); //Desde le primer h2 hasta el ultimo /h2 -- Con el ? hacemos que se quede con el primer match
+        Matcher matcher = pattern.matcher(html);
+        System.out.println(matcher.matches());
 
+        matcher.reset(); //poner al principio
+        while(matcher.find()){
 
+            System.out.println("Coincidencia " + matcher.group(2)); // Con grupo 0 sacaria all de concidencias.
 
 }
+
+        // OR []
+        String expre = "He ido al (cine|supermecado)";
+        System.out.println("He ido al cine".matches(expre));
+        System.out.println("pablo".matches("[Pp]ablo"));
+        System.out.println("Pablo".matches("[Pp]ablo"));
+        System.out.println("pablo".matches("(P|p)ablo"));
+        System.out.println("Pablo".matches("[P|p]ablo"));
+
+        //and
+        System.out.println("pablo".matches("[Pp]abc"));
+
+        //not
+        String cd = "crcdctc";
+        String expreR = "c[^d]";
+        String expreR2 = "c(?!d)"; //Look head Con esto hacemos que compare c y luego puede que no haya nada o que vaya algo que no sea una d
+        String expreR22 = "c(?=d)"; // Si quieres todas las ocurrencias de c con d
+        Pattern pat = Pattern.compile(expreR);
+        Matcher matc = pat.matcher(cd);
+
+        int i = 0;
+        while (matcher.find()){
+            i++;
+            System.out.println("Coincidencia " + i + matc.start() + " " + matc.end());
+        }
+
+        System.out.println("*******************************************************************");
+
+// (+35) 677-888-999
+
+        String telefono = "(+35) 677-888-999";
+        //String expeTele = "([\\(+])([0-9][0-9])[ ]([0-9]{3})[-]([0-9]{3})[-]([0-9]{3})"; Este es el mio
+        String expeTele = "^(\\(\\+\\d{1,4}\\))[ ](\\d{3}[-]\\d{3}[-]\\d{3})$";
+        Pattern patronTel = Pattern.compile(expeTele);
+        Matcher matchTel = patronTel.matcher(telefono);
+        System.out.println(matchTel.matches());
+
+        matchTel.reset();
+        while (matchTel.find()){
+
+            System.out.println(matchTel.group(2));
+        }
+
+        /*
+        int j = 0;
+        matcher.reset();
+        while (matcher.find()){
+            j++;
+            System.out.println("Coincidencia " + j + matchTel.start() + " " + matchTel.end());
+           // System.out.println("Coincidencia grupo pais" + matchTel.group(2)); // Con grupo 0 sacaria all de concidencias.
+        }*/
+
 
         //main
     }

@@ -354,7 +354,7 @@ public class EjerciciosStream2 {
 
 
         listadoProductos.stream()
-                .map(producto -> producto.getPrecio())
+                .map(producto -> producto.getPrecio());
 
 
 
