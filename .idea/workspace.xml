@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fa6dbf03-e0af-4a38-a874-b44d974f56f5" name="Changes" comment="Ejercico 8 solucionado el SET">
+      <change afterPath="$PROJECT_DIR$/src/ExpresionesRegulares/RegExEjercicios.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_26_4_23_16_50_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_26_4_23_16_50__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ExpresionesRegulares/ExpresionesRegulares.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ExpresionesRegulares/ExpresionesRegulares.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Stream/EjerciciosStream2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Stream/EjerciciosStream2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +48,7 @@
       <recent name="B:\Cerbell\GSDAW\PROGRAMACIONJAVA\UNIDAD 7\PrgAvanzada\PrgAvanzada\src\Genericos" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ExpresionesRegulares">
+  <component name="RunManager" selected="Application.RegExEjercicios">
     <configuration name="EjerciciosStream" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Stream.EjerciciosStream" />
       <module name="PrgAvanzada" />
@@ -87,12 +88,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NeoStream" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Stream.NeoStream" />
+    <configuration name="RegExEjercicios" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ExpresionesRegulares.RegExEjercicios" />
       <module name="PrgAvanzada" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Stream.*" />
+          <option name="PATTERN" value="ExpresionesRegulares.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,11 +116,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RegExEjercicios" />
         <item itemvalue="Application.ExpresionesRegulares" />
         <item itemvalue="Application.StreamTest" />
         <item itemvalue="Application.EmpleadoStream" />
         <item itemvalue="Application.EjerciciosStream" />
-        <item itemvalue="Application.NeoStream" />
       </list>
     </recent_temporary>
   </component>
