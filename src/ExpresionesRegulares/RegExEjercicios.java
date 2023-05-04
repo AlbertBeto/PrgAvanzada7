@@ -77,7 +77,30 @@ public class RegExEjercicios {
             System.out.println(macheadorTextoIndices.group(4));
         }
 
+//Ejercicio 10
+        System.out.println("Ejercicio 10");
+        String puntos = "{0,2},{1,5},{2,3},{3,4}";
+        Pattern patron10 = Pattern.compile("([{]([0-9],[0-9])[}][,*])+?");
+        Matcher macheadorPatron10 = patron10.matcher(puntos);
 
+while (macheadorPatron10.find()){
+    System.out.println(macheadorPatron10.group(2));
+}
+
+// Ejercicio 11
+        System.out.println("Ejercicio 11");
+        String cpBcn = "08020";
+        System.out.println(cpBcn.matches("\\d{5}"));
+
+// Ejercicio 12
+        System.out.println("Ejercicio 12");
+        String creditCard = "2233 5555 6565 7888 232";
+        System.out.println(creditCard.matches("(\\d{4}([ ]*)){4}(\\d{3})"));
+
+        // Ejercicio 13
+        System.out.println("Ejercicio 13");
+        String email = "test2@gmail.com";
+        System.out.println(email.matches("((\\d|\\w)*)[@](\\w*).(\\w*)"));
 
         //main
     }

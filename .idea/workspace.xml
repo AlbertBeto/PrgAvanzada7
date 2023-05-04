@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa6dbf03-e0af-4a38-a874-b44d974f56f5" name="Changes" comment="Ejercico 8 solucionado el SET">
-      <change afterPath="$PROJECT_DIR$/src/ExpresionesRegulares/RegExEjercicios.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_26_4_23_16_50_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_26_4_23_16_50__Changes_.xml" beforeDir="false" />
+    <list default="true" id="fa6dbf03-e0af-4a38-a874-b44d974f56f5" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ExpresionesRegulares/RegExEjercicios.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ExpresionesRegulares/RegExEjercicios.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,8 +47,8 @@
     </key>
   </component>
   <component name="RunManager" selected="Application.RegExEjercicios">
-    <configuration name="EjerciciosStream" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Stream.EjerciciosStream" />
+    <configuration name="EjerciciosStream2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Stream.EjerciciosStream2" />
       <module name="PrgAvanzada" />
       <extension name="coverage">
         <pattern>
@@ -75,19 +73,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExpresionesRegulares" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ExpresionesRegulares.ExpresionesRegulares" />
-      <module name="PrgAvanzada" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ExpresionesRegulares.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="RegExEjercicios" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ExpresionesRegulares.RegExEjercicios" />
       <module name="PrgAvanzada" />
@@ -101,210 +86,71 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StreamTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Stream.StreamTest" />
-      <module name="PrgAvanzada" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Stream.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.RegExEjercicios" />
-        <item itemvalue="Application.ExpresionesRegulares" />
-        <item itemvalue="Application.StreamTest" />
+        <item itemvalue="Application.EjerciciosStream2" />
         <item itemvalue="Application.EmpleadoStream" />
-        <item itemvalue="Application.EjerciciosStream" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
-    <task active="true" id="Default" summary="Default task">
-      <changelist id="fa6dbf03-e0af-4a38-a874-b44d974f56f5" name="Changes" comment="" />
-      <created>1679656972396</created>
-      <option name="number" value="Default" />
-      <option name="presentableId" value="Default" />
-      <updated>1679656972396</updated>
-    </task>
-    <task id="LOCAL-00001" summary="Creamos repositorio">
-      <created>1679657155906</created>
+    <task id="LOCAL-00001" summary="Acabados los Streams">
+      <created>1682542903401</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1679657155906</updated>
+      <updated>1682542903401</updated>
     </task>
-    <task id="LOCAL-00002" summary="introducidos los javas de los equipos y los jugadores.">
-      <created>1679657517947</created>
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fa6dbf03-e0af-4a38-a874-b44d974f56f5" name="Changes" comment="" />
+      <created>1682636280158</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1682636280158</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Realizados hasta ahora los 4 ejercicios de Streams2.&#10;Empiezo el quinto">
+      <created>1682639754276</created>
       <option name="number" value="00002" />
       <option name="presentableId" value="LOCAL-00002" />
       <option name="project" value="LOCAL" />
-      <updated>1679657517947</updated>
+      <updated>1682639754276</updated>
     </task>
-    <task id="LOCAL-00003" summary="Liga creada y primeros codigos del set">
-      <created>1679666026618</created>
+    <task id="LOCAL-00003" summary="Acabado el 5">
+      <created>1682641339484</created>
       <option name="number" value="00003" />
       <option name="presentableId" value="LOCAL-00003" />
       <option name="project" value="LOCAL" />
-      <updated>1679666026618</updated>
+      <updated>1682641339484</updated>
     </task>
-    <task id="LOCAL-00004" summary="Todo lo del lambda creado">
-      <created>1679885090429</created>
+    <task id="LOCAL-00004" summary="Acabado el 6">
+      <created>1682644029014</created>
       <option name="number" value="00004" />
       <option name="presentableId" value="LOCAL-00004" />
       <option name="project" value="LOCAL" />
-      <updated>1679885090429</updated>
+      <updated>1682644029014</updated>
     </task>
-    <task id="LOCAL-00005" summary="Genericos2 main creado">
-      <created>1679966289392</created>
+    <task id="LOCAL-00005" summary="Peleando el 8 B y C">
+      <created>1682714422093</created>
       <option name="number" value="00005" />
       <option name="presentableId" value="LOCAL-00005" />
       <option name="project" value="LOCAL" />
-      <updated>1679966289392</updated>
+      <updated>1682714422093</updated>
     </task>
-    <task id="LOCAL-00006" summary="Genericos2">
-      <created>1680080143540</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1680080143540</updated>
-    </task>
-    <task id="LOCAL-00007" summary="Remate final de Predicate, Supplier">
-      <created>1680112228817</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1680112228817</updated>
-    </task>
-    <task id="LOCAL-00008" summary="Creo Rama Supplier y empiezo ejercicio">
-      <created>1680272518959</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1680272518959</updated>
-    </task>
-    <task id="LOCAL-00009" summary="Hasta el ejercicio de Function">
-      <created>1680276242432</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1680276242432</updated>
-    </task>
-    <task id="LOCAL-00010" summary="Empezamos la Referencia a Metodos">
-      <created>1681928093093</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1681928093093</updated>
-    </task>
-    <task id="LOCAL-00011" summary="Empezamos Streams. Ejercicios de clase.">
-      <created>1682087063602</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1682087063602</updated>
-    </task>
-    <task id="LOCAL-00012" summary="Empezamos Streams. Ejercicios de clase.">
-      <created>1682098215079</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1682098215079</updated>
-    </task>
-    <task id="LOCAL-00013" summary="Ejercicios básicos de Steams">
-      <created>1682447007559</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1682447007559</updated>
-    </task>
-    <task id="LOCAL-00014" summary="Modificado y solucionado el 12 gracias a realizar un compareTo.....&#10;Falta acabar el 13">
-      <created>1682521965634</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1682521965634</updated>
-    </task>
-    <task id="LOCAL-00015" summary="Entrada de diferentes tipos de Stream. Y modificacion del StreamTest">
-      <created>1682533912766</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1682533912766</updated>
-    </task>
-    <task id="LOCAL-00016" summary="Expresiones Regulares">
-      <created>1682694038068</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1682694038068</updated>
-    </task>
-    <option name="localTasksCounter" value="17" />
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Creamos repositorio" />
-    <MESSAGE value="introducidos los javas de los equipos y los jugadores." />
-    <MESSAGE value="Liga creada y primeros codigos del set" />
-    <MESSAGE value="Todo lo del lambda creado" />
-    <MESSAGE value="Genericos2 main creado" />
-    <MESSAGE value="Genericos2" />
-    <MESSAGE value="Remate final de Predicate, Supplier" />
-    <MESSAGE value="Creo Rama Supplier y empiezo ejercicio" />
-    <MESSAGE value="Hasta el ejercicio de Function" />
-    <MESSAGE value="Empezamos la Referencia a Metodos" />
-    <MESSAGE value="Empezamos Streams. Ejercicios de clase." />
-    <MESSAGE value="Ejercicios básicos de Steams" />
-    <MESSAGE value="Modificado y solucionado el 12 gracias a realizar un compareTo.....&#10;Falta acabar el 13" />
-    <MESSAGE value="Entrada de diferentes tipos de Stream. Y modificacion del StreamTest" />
-    <MESSAGE value="Expresiones Regulares" />
-    <option name="LAST_COMMIT_MESSAGE" value="Expresiones Regulares" />
+    <MESSAGE value="Acabados los Streams" />
+    <MESSAGE value="Realizados hasta ahora los 4 ejercicios de Streams2.&#10;Empiezo el quinto" />
+    <MESSAGE value="Acabado el 5" />
+    <MESSAGE value="Acabado el 6" />
+    <MESSAGE value="Peleando el 8 B y C" />
+    <option name="LAST_COMMIT_MESSAGE" value="Peleando el 8 B y C" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Predicate/PredicadoTest.java</url>
-          <line>7</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Predicate/PredicadoTest.java</url>
-          <line>13</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Predicate/Ciudad.java</url>
-          <line>51</line>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/Predicate/Ciudad.java</url>
-          <line>35</line>
-          <properties class="Predicate.Ciudad" method="main">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
