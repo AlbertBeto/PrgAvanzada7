@@ -4,9 +4,17 @@ import java.io.*;
 import java.util.Scanner;
 
 public class InOut {
-
+    public static void test(String file, int number) throws IOException {
+        try (OutputStream out = new FileOutputStream(file)) {
+            out.write(number);
+        }
+        System.out.println(Integer.toBinaryString(number));
+        try (InputStream input = new FileInputStream(file)) {
+            System.out.println(input.read());
+        }
+    }
     public static void main(String[] args) {
-
+/*
         try {
             DataOutputStream fos = new DataOutputStream(new FileOutputStream("datos.dat"));
             fos.writeInt(0);
@@ -34,9 +42,45 @@ public class InOut {
         } catch (IOException e) {
             System.out.println(e.getMessage());
         }
+*/
+/*
+        try {
+            test("hola.txt", -10);
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
+
+        //Esto es TRY-WITH-RESOURCES automaticamente hace el close
+        try (FileWriter fw = new FileWriter("output.txt")){
+
+            fw.write("alfa bravo");
+            // fw.close();
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
+*/
+
+
+
+        //DataInputStream entrada = new DataInputStream(new FileInputStream(file1));
+        //DataOutputStream salida;
+        String file1= args[0];
+        String file2= args[1];
+        try(DataInputStream entrada = new DataInputStream(new FileInputStream(file1));DataOutputStream salida = new DataOutputStream(new FileOutputStream(file2));){
+            while(entrada.available()>0) {
+                salida.write(entrada.read());
+            }
+        } catch (FileNotFoundException e) {
+            throw new RuntimeException(e);
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
+
+
 
         //main
     }
 
     //class
 }
+//skinparam LineType ortho
