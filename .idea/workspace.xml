@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa6dbf03-e0af-4a38-a874-b44d974f56f5" name="Changes" comment="Creado In and Out carpeta">
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2_5_23_19_12_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2_5_23_19_12__Changes_.xml" beforeDir="false" />
+    <list default="true" id="fa6dbf03-e0af-4a38-a874-b44d974f56f5" name="Changes" comment="Inlcuidos JAR de PDF">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PrgAvanzada.iml" beforeDir="false" afterPath="$PROJECT_DIR$/PrgAvanzada.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -165,7 +162,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683299059570</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Inlcuidos JAR de PDF">
+      <created>1683653567855</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1683653567855</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -175,7 +179,8 @@
     <MESSAGE value="Acabado el 6" />
     <MESSAGE value="Peleando el 8 B y C" />
     <MESSAGE value="Creado In and Out carpeta" />
-    <option name="LAST_COMMIT_MESSAGE" value="Creado In and Out carpeta" />
+    <MESSAGE value="Inlcuidos JAR de PDF" />
+    <option name="LAST_COMMIT_MESSAGE" value="Inlcuidos JAR de PDF" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
