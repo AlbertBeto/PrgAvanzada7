@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa6dbf03-e0af-4a38-a874-b44d974f56f5" name="Changes" comment="lO ULTIMO PARA HACER LIMPIEZA EN CLASE">
-      <change afterPath="$PROJECT_DIR$/src/IN_OUT/json.java" afterDir="false" />
+    <list default="true" id="fa6dbf03-e0af-4a38-a874-b44d974f56f5" name="Changes" comment="JSON java dentro de IN Out">
+      <change afterPath="$PROJECT_DIR$/src/IN_OUT/creandoJSON.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PrgAvanzada.iml" beforeDir="false" afterPath="$PROJECT_DIR$/PrgAvanzada.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,22 +49,9 @@
       <recent name="B:\Cerbell\GSDAW\PROGRAMACIONJAVA\UNIDAD 7\PrgAvanzada\PrgAvanzada\src\Genericos" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.json">
+  <component name="RunManager" selected="Application.creandoJSON">
     <configuration name="EjerciciosStream2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Stream.EjerciciosStream2" />
-      <module name="PrgAvanzada" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Stream.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="EmpleadoStream" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Stream.EmpleadoStream" />
       <module name="PrgAvanzada" />
       <extension name="coverage">
         <pattern>
@@ -104,6 +90,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="creandoJSON" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="IN_OUT.creandoJSON" />
+      <module name="PrgAvanzada" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="IN_OUT.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="json" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="IN_OUT.json" />
       <module name="PrgAvanzada" />
@@ -119,11 +118,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.creandoJSON" />
         <item itemvalue="Application.json" />
         <item itemvalue="Application.InOut" />
         <item itemvalue="Application.RegExEjercicios" />
         <item itemvalue="Application.EjerciciosStream2" />
-        <item itemvalue="Application.EmpleadoStream" />
       </list>
     </recent_temporary>
   </component>
@@ -199,7 +198,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683830148317</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="JSON java dentro de IN Out">
+      <created>1684260491732</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1684260491732</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -211,7 +217,8 @@
     <MESSAGE value="Creado In and Out carpeta" />
     <MESSAGE value="Inlcuidos JAR de PDF" />
     <MESSAGE value="lO ULTIMO PARA HACER LIMPIEZA EN CLASE" />
-    <option name="LAST_COMMIT_MESSAGE" value="lO ULTIMO PARA HACER LIMPIEZA EN CLASE" />
+    <MESSAGE value="JSON java dentro de IN Out" />
+    <option name="LAST_COMMIT_MESSAGE" value="JSON java dentro de IN Out" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
