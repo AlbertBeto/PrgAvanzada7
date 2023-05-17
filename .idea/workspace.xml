@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa6dbf03-e0af-4a38-a874-b44d974f56f5" name="Changes" comment="Trabajando la primera parte dle ejercicio de JSON">
+    <list default="true" id="fa6dbf03-e0af-4a38-a874-b44d974f56f5" name="Changes" comment="Acabado el primer ejercicio de JSON">
+      <change afterPath="$PROJECT_DIR$/src/IN_OUT/Dia.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/IN_OUT/LuviasJson.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/IN_OUT/Semana.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/IN_OUT/creandoJSON.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IN_OUT/creandoJSON.java" afterDir="false" />
     </list>
@@ -49,13 +52,14 @@
       <recent name="B:\Cerbell\GSDAW\PROGRAMACIONJAVA\UNIDAD 7\PrgAvanzada\PrgAvanzada\src\Genericos" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.creandoJSON">
-    <configuration name="EjerciciosStream2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Stream.EjerciciosStream2" />
+  <component name="RunManager" selected="Application.LuviasJson">
+    <configuration name="InOut" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="IN_OUT.InOut" />
       <module name="PrgAvanzada" />
+      <option name="PROGRAM_PARAMETERS" value="datos.dat pruebaSalidaTexto2.dat" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Stream.*" />
+          <option name="PATTERN" value="IN_OUT.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -63,10 +67,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InOut" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="IN_OUT.InOut" />
+    <configuration name="LuviasJson" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="IN_OUT.LuviasJson" />
       <module name="PrgAvanzada" />
-      <option name="PROGRAM_PARAMETERS" value="datos.dat pruebaSalidaTexto2.dat" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="IN_OUT.*" />
@@ -118,11 +121,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LuviasJson" />
         <item itemvalue="Application.creandoJSON" />
         <item itemvalue="Application.json" />
         <item itemvalue="Application.InOut" />
         <item itemvalue="Application.RegExEjercicios" />
-        <item itemvalue="Application.EjerciciosStream2" />
       </list>
     </recent_temporary>
   </component>
@@ -212,7 +215,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684262946374</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Acabado el primer ejercicio de JSON">
+      <created>1684346643879</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1684346643879</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -226,7 +236,8 @@
     <MESSAGE value="lO ULTIMO PARA HACER LIMPIEZA EN CLASE" />
     <MESSAGE value="JSON java dentro de IN Out" />
     <MESSAGE value="Trabajando la primera parte dle ejercicio de JSON" />
-    <option name="LAST_COMMIT_MESSAGE" value="Trabajando la primera parte dle ejercicio de JSON" />
+    <MESSAGE value="Acabado el primer ejercicio de JSON" />
+    <option name="LAST_COMMIT_MESSAGE" value="Acabado el primer ejercicio de JSON" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

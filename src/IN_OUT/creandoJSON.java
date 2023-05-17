@@ -6,7 +6,6 @@ import org.json.JSONObject;
 public class creandoJSON {
 
     public static void main(String[] args) {
-
         //Bloque results
 
         JSONArray synonyms = new JSONArray();
@@ -18,7 +17,6 @@ public class creandoJSON {
        resultsObj1.put("partOfSpeech", "noun");
        resultsObj1.put("synonyms",synonyms);
 
-
         //Bloque syllables
 
         JSONArray list = new JSONArray();
@@ -28,9 +26,6 @@ public class creandoJSON {
         JSONObject syllablesObj = new JSONObject();
         syllablesObj.put("count", "2");
         syllablesObj.put("list", list);
-
-
-
 
         JSONArray results = new JSONArray();
         results.put(resultsObj1);
@@ -42,6 +37,15 @@ public class creandoJSON {
         json1.put("syllables",syllablesObj);
 
         System.out.println(json1.toString());
+
+        //****************** Ejercicio 2 **************************
+        System.out.println("****************** Ejercicio 2 **************************");
+
+
+
+
+
+
                 //main
     }
     //class
