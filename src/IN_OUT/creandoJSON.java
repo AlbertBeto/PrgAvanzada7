@@ -7,36 +7,41 @@ public class creandoJSON {
 
     public static void main(String[] args) {
 
+        //Bloque results
 
-        JSONObject json1 = new JSONObject();
-
-
-
-
-                JSONArray synonyms = new JSONArray();
+        JSONArray synonyms = new JSONArray();
         synonyms.put("examination");
         synonyms.put("test");
+
+        JSONObject resultsObj1 = new JSONObject();
+       resultsObj1.put("definition","a set of questions or exercises evaluating skill or knowledge");
+       resultsObj1.put("partOfSpeech", "noun");
+       resultsObj1.put("synonyms",synonyms);
+
+
+        //Bloque syllables
 
         JSONArray list = new JSONArray();
         list.put("ex");
         list.put("am");
 
-        JSONArray results = new JSONArray();
-        JSONObject resultsObj1 = new JSONObject("definition","a set of questions or exercises evaluating skill or knowledge");
-             JSONObject resultsObj2 = new JSONObject("partOfSpeech", "noun");
-
-       resultsObj1.put("definition","a set of questions or exercises evaluating skill or knowledge");
-        results.put(resultsObj2);
-        results.put(synonyms);
-
-
         JSONObject syllablesObj = new JSONObject();
-        syllablesObj.put("aqui va el index", "aqui va el valor");
+        syllablesObj.put("count", "2");
+        syllablesObj.put("list", list);
 
 
-        System.out.println(results.toString());
 
 
+        JSONArray results = new JSONArray();
+        results.put(resultsObj1);
+
+        JSONObject json1 = new JSONObject();
+
+        json1.put("word", "exam");
+        json1.put("results", results);
+        json1.put("syllables",syllablesObj);
+
+        System.out.println(json1.toString());
                 //main
     }
     //class

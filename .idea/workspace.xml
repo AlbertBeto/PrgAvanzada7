@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa6dbf03-e0af-4a38-a874-b44d974f56f5" name="Changes" comment="JSON java dentro de IN Out">
-      <change afterPath="$PROJECT_DIR$/src/IN_OUT/creandoJSON.java" afterDir="false" />
+    <list default="true" id="fa6dbf03-e0af-4a38-a874-b44d974f56f5" name="Changes" comment="Trabajando la primera parte dle ejercicio de JSON">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/IN_OUT/creandoJSON.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IN_OUT/creandoJSON.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,16 +34,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "/home/ALU1W/Documentos/PROGRAMACION/UNIDAD7/json-20220924.jar",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/ALU1W/Documentos/PROGRAMACION/UNIDAD7/json-20220924.jar&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="B:\Cerbell\GSDAW\PROGRAMACIONJAVA\UNIDAD 7\PrgAvanzada\PrgAvanzada\src\Genericos" />
@@ -205,7 +205,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684260491732</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Trabajando la primera parte dle ejercicio de JSON">
+      <created>1684262946374</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1684262946374</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -218,7 +225,8 @@
     <MESSAGE value="Inlcuidos JAR de PDF" />
     <MESSAGE value="lO ULTIMO PARA HACER LIMPIEZA EN CLASE" />
     <MESSAGE value="JSON java dentro de IN Out" />
-    <option name="LAST_COMMIT_MESSAGE" value="JSON java dentro de IN Out" />
+    <MESSAGE value="Trabajando la primera parte dle ejercicio de JSON" />
+    <option name="LAST_COMMIT_MESSAGE" value="Trabajando la primera parte dle ejercicio de JSON" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
