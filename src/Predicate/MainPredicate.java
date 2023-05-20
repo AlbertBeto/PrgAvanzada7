@@ -65,7 +65,7 @@ public class MainPredicate {
 
         Predicate<String> empiezaA = x -> x.substring(0,1).equals("A");
         Predicate<String> longitudCinco = x -> x.length()==5;
-        System.out.println("Text List");
+        System.out.println("Text List Empieza A y length 5");
         for (String ecoDos: cadenaTexto) {
             if (empiezaA.test(ecoDos) && longitudCinco.test(ecoDos)){
                 System.out.println("Verdad");

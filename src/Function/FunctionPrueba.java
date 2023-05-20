@@ -61,12 +61,15 @@ potenciadoEImpreso22(2,4);
         listadoBravoString.add("Goku no sabia identificar generos humanos");
         listadoBravoString.add("Goku tocó la entrepierna de Arale");
         listadoBravoString.add("TauPaiPai era gay");
+
         BiFunction<String,Integer,String> debeSerMayor = (texto,distancia) -> {
             if (texto.length()>distancia){return texto;}else{return null;}
         };
+
         for (String posicion:listadoBravoString) {
             System.out.println(debeSerMayor.apply(posicion,20));
         }
+
 
         //Ejercicio 12
         BiFunction<String,String,String> debeEmpezarIgual = (texto,comparador) -> {

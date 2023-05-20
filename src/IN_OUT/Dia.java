@@ -1,12 +1,13 @@
 package IN_OUT;
 
 public class Dia {
-
+private String dia;
     private int tempMax;
     private int tempMin;
     private String text;
 
-    public Dia(int tempMax, int tempMin, String text) {
+    public Dia(String dia, int tempMax, int tempMin, String text) {
+        this.dia = dia;
         this.tempMax = tempMax;
         this.tempMin = tempMin;
         this.text = text;
@@ -22,5 +23,9 @@ public class Dia {
 
     public String getText() {
         return text;
+    }
+
+    public String getDia() {
+        return dia;
     }
 }

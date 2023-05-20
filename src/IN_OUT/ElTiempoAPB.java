@@ -1,7 +1,5 @@
 package IN_OUT;
 
-import org.apache.pdfbox.contentstream.operator.graphics.FillEvenOddRule;
-import org.json.JSONArray;
 import org.json.JSONObject;
 
 import java.io.BufferedReader;
@@ -14,7 +12,7 @@ import java.util.ArrayList;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
-public class LuviasJson {
+public class ElTiempoAPB {
 
     public static String weatherJson(String url){
 //https://api.tutiempo.net/json/?lan=es&apid=45EaXXaaaX4ggap&ll=38.267211910,-0.695218980
@@ -38,13 +36,13 @@ public class LuviasJson {
 
     public static void main(String[] args) {
         try {
-        Scanner sc = new Scanner(System.in);
+            Scanner sc = new Scanner(System.in);
 
-        System.out.println("Longitud Elche: 38,267211910");
-        System.out.println("Latitud Elche: -0,695218980");
-        System.out.println("Longitud Barcelona: 2,1746589914");
-        System.out.println("Latitud Barcelona: 41,3948528939");
-        System.out.println("La API da error cuando le pasas coordenadas que no sean las de Elche, ????");
+            System.out.println("Longitud Elche: 38,267211910");
+            System.out.println("Latitud Elche: -0,695218980");
+            System.out.println("Longitud Barcelona: 2,1746589914");
+            System.out.println("Latitud Barcelona: 41,3948528939");
+            System.out.println("La API da error cuando le pasas coordenadas que no sean las de Elche, ????");
 /*
         Double longitud = 38.267211910;
         Double latitud = -0.695218980;
@@ -52,8 +50,6 @@ public class LuviasJson {
             Double longitud=0.0;
             Double latitud=0.0;
 
-
-            //Este módulo es para confirmar el orden de los argumentos de entrada
             if (args[0].equals("-lon")){
                 longitud = Double.parseDouble(args[1]);
                 latitud = Double.parseDouble(args[3]);
@@ -72,23 +68,23 @@ public class LuviasJson {
         System.out.println("Introduzca Latitud:");
         latitud= sc.nextDouble();
 */
-        System.out.println("Que día de la semana quieres saber?");
-        int diaVer;
-        diaVer = sc.nextInt()-1;
-        String url = "https://api.tutiempo.net/json/?lan=es&apid=45EaXXaaaX4ggap&ll="+longitud+","+latitud;
-        String json = weatherJson(url);
+            System.out.println("Que día de la semana quieres saber?");
+            int diaVer;
+            diaVer = sc.nextInt()-1;
+            String url = "https://api.tutiempo.net/json/?lan=es&apid=45EaXXaaaX4ggap&ll="+longitud+","+latitud;
+            String json = weatherJson(url);
 
-        JSONObject jsonObject = new JSONObject(json);
+            JSONObject jsonObject = new JSONObject(json);
 
-        ArrayList<Dia> arraySemanaTemp = new ArrayList<>();
-        for (int i = 1; i<8 ; i++){
-            String diaNumero = "day"+i;
-            JSONObject lolo = jsonObject.getJSONObject(diaNumero);
-            Dia diaObj = new Dia(diaNumero,lolo.getInt("temperature_max"), lolo.getInt("temperature_min"),lolo.getString("text"));
-            arraySemanaTemp.add(diaObj);
+            ArrayList<Dia> arraySemanaTemp = new ArrayList<>();
+            for (int i = 1; i<8 ; i++){
+                String diaNumero = "day"+i;
+                JSONObject lolo = jsonObject.getJSONObject(diaNumero);
+                Dia diaObj = new Dia(diaNumero,lolo.getInt("temperature_max"), lolo.getInt("temperature_min"),lolo.getString("text"));
+                arraySemanaTemp.add(diaObj);
             }
 
-           // Semana semanaTemp = new Semana(arraySemanaTemp);
+
             System.out.println("Dia semana: " + arraySemanaTemp.get(diaVer).getDia());
             System.out.println("Temperatura Maxima: " + arraySemanaTemp.get(diaVer).getTempMax());
             System.out.println("Temperatura Minima: " + arraySemanaTemp.get(diaVer).getTempMin());
@@ -97,11 +93,14 @@ public class LuviasJson {
             //try
         }
         catch(InputMismatchException | IndexOutOfBoundsException j) {
-         System.out.println("Ha introducido un día de la semana erroneo.");
-       }
+            System.out.println("Ha introducido un día de la semana erroneo.");
+        }
 
 
         //main
     }
-//class
+
+
+
+    //class
 }

@@ -48,7 +48,7 @@ public class ConsumerPrueba {
         // listadoPalabras.forEach(imprimeUltimaLetra);
 
         listadoPalabras.forEach(aa -> System.out.println(aa.substring(aa.length()-1)));
-
+        System.out.println(listadoPalabras.get(0));
         //Ejercicio 4
 
         Supplier<String> queJava = () -> "Java es un lenguaje de programación";

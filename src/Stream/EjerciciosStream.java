@@ -68,7 +68,7 @@ public class EjerciciosStream {
         listaPalabras.add(text4);
 
         listaPalabras.stream()
-                .filter(s -> s.startsWith("C"))
+                .filter(s -> s.startsWith("C")||s.startsWith("c"))
                 .map(s -> s.toUpperCase())
                 .sorted()
                 .forEach(System.out::println);
@@ -76,6 +76,11 @@ public class EjerciciosStream {
         System.out.println("Vamos a realizar una segunda lectura del ejercicio");
         List<String> harmony = listaPalabras.stream().filter(s -> s.startsWith("C")).map(s -> s.toUpperCase()).toList();
         harmony.stream().sorted().forEach(System.out::println);
+
+        for (String aa:harmony
+             ) {
+            System.out.println(aa);
+        }
 
         //Ejercicio 9
 

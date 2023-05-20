@@ -54,6 +54,7 @@ cambioMays.cambiarMays(ciudades);
         System.out.println(textoPrg);
 
 
+
         CaracteresPares losPares =(texto) -> {
             StringBuilder sb = new StringBuilder();
             for (int i = 0; i < texto.length();i++){
