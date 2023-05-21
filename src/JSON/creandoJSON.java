@@ -1,4 +1,4 @@
-package IN_OUT;
+package JSON;
 
 import org.json.JSONArray;
 import org.json.JSONObject;

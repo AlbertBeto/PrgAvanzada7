@@ -1,4 +1,4 @@
-package IN_OUT;
+package JSON;
 
 public class Dia {
 private String dia;

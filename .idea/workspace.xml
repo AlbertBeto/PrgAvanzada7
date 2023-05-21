@@ -5,16 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fa6dbf03-e0af-4a38-a874-b44d974f56f5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/IN_OUT/ElTiempoAPB.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PrgAvanzada.iml" beforeDir="false" afterPath="$PROJECT_DIR$/PrgAvanzada.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Consumer/ConsumerPrueba.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Consumer/ConsumerPrueba.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Function/FunctionPrueba.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Function/FunctionPrueba.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/IN_OUT/Dia.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IN_OUT/Dia.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/IN_OUT/LuviasJson.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IN_OUT/LuviasJson.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lambda/LambdaMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lambda/LambdaMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Predicate/MainPredicate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Predicate/MainPredicate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Stream/EjerciciosStream.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Stream/EjerciciosStream.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,16 +33,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "B:/Cerbell/GSDAW/PROGRAMACIONJAVA/UNIDAD 8/pdfbox-3.0.0-alpha3.jar",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;B:/Cerbell/GSDAW/PROGRAMACIONJAVA/UNIDAD 8/pdfbox-3.0.0-alpha3.jar&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="B:\Cerbell\GSDAW\PROGRAMACIONJAVA\UNIDAD 7\PrgAvanzada\PrgAvanzada\src\Genericos" />
@@ -64,7 +55,7 @@
       <option name="PROGRAM_PARAMETERS" value="datos.dat pruebaSalidaTexto2.dat" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="IN_OUT.*" />
+          <option name="PATTERN" value="JSON.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -73,12 +64,12 @@
       </method>
     </configuration>
     <configuration name="LuviasJson" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="IN_OUT.LuviasJson" />
+      <option name="MAIN_CLASS_NAME" value="JSON.LuviasJson" />
       <module name="PrgAvanzada" />
       <option name="PROGRAM_PARAMETERS" value="-lon 38.267211910 -lat -0.695218980 text.txt" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="IN_OUT.*" />
+          <option name="PATTERN" value="JSON.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -100,11 +91,11 @@
       </method>
     </configuration>
     <configuration name="creandoJSON" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="IN_OUT.creandoJSON" />
+      <option name="MAIN_CLASS_NAME" value="JSON.creandoJSON" />
       <module name="PrgAvanzada" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="IN_OUT.*" />
+          <option name="PATTERN" value="JSON.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,11 +104,11 @@
       </method>
     </configuration>
     <configuration name="json" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="IN_OUT.json" />
+      <option name="MAIN_CLASS_NAME" value="JSON.json" />
       <module name="PrgAvanzada" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="IN_OUT.*" />
+          <option name="PATTERN" value="JSON.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -228,7 +219,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684346643879</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Acabado el segundo  ejercicio de JSON y preparado para aceptar los argumentos externos.">
+      <created>1684603893877</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1684603893877</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -243,7 +241,8 @@
     <MESSAGE value="JSON java dentro de IN Out" />
     <MESSAGE value="Trabajando la primera parte dle ejercicio de JSON" />
     <MESSAGE value="Acabado el primer ejercicio de JSON" />
-    <option name="LAST_COMMIT_MESSAGE" value="Acabado el primer ejercicio de JSON" />
+    <MESSAGE value="Acabado el segundo  ejercicio de JSON y preparado para aceptar los argumentos externos." />
+    <option name="LAST_COMMIT_MESSAGE" value="Acabado el segundo  ejercicio de JSON y preparado para aceptar los argumentos externos." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

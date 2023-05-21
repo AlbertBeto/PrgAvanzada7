@@ -1,7 +1,5 @@
-package IN_OUT;
+package JSON;
 
-import org.apache.pdfbox.contentstream.operator.graphics.FillEvenOddRule;
-import org.json.JSONArray;
 import org.json.JSONObject;
 
 import java.io.BufferedReader;
