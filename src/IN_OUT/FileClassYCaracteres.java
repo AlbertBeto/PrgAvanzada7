@@ -1,8 +1,12 @@
 package IN_OUT;
 
+import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.nio.file.FileSystems;
+import java.nio.file.Files;
+import java.nio.file.Path;
 import java.util.Scanner;
 
 public class FileClassYCaracteres {
@@ -43,11 +47,64 @@ public class FileClassYCaracteres {
         System.out.println(salida);
     }
 
-    public static void main(String[] args) {
-operacionInOut("textoprueba.txt");
-lecturaInOut("textoprueba.txt");
 
+    public static void quitaEspacios (String archivoEntrada) {
+        String textoSinEspacios = "";
+        int primero = 0;
+        Path p = FileSystems.getDefault().getPath(archivoEntrada);
+        try {
+            //FileReader fr = new FileReader(archivoEntrada);
+            BufferedReader br = Files.newBufferedReader(p);
+            String entrada="";
+            while ((entrada = br.readLine()) != null) {
+
+                //Pensando en meter el siguiente if en un bucle pero tengo
+                //presente todo el rato que no es eficiente.
+
+if(entrada.substring(0).equals(" ")&&primero==0){
+    entrada=entrada.substring(1,entrada.length());
+}
+
+            //System.out.println(entrada);
+textoSinEspacios = textoSinEspacios+entrada+"\n";
+                 //   ch = fr.read();
+               }
+                //fr.close();
+            } catch(IOException fe){
+                System.out.println("Error de E/S");
+            }
+
+        System.out.println(textoSinEspacios);
+        }
+
+
+
+    public static void main(String[] args) {
+//operacionInOut("textoprueba.txt");
+//lecturaInOut("textoprueba.txt");
+quitaEspacios("textoConEspacios.txt");
     }
+
+
+        /* Restos de codigo
+        while (ch != -1) {
+                char comparador = (char)ch;
+                String comparadorS = Character.toString(comparador);
+                if (!comparadorS.equals(" ")&&primero==0){
+                textoSinEspacios=(char)ch+" ";
+                primero=1;
+                } else if (!comparadorS.equals(" ")&&primero==1) {
+                    textoSinEspacios=textoSinEspacios+(char)ch;
+                }
+
+                ch = fr.read();
+            }
+            fr.close();
+        } catch (IOException fe) {
+            System.out.println("Error de E/S");
+        }
+         */
+
 
 
     //class
