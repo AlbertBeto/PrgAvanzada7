@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa6dbf03-e0af-4a38-a874-b44d974f56f5" name="Changes" comment="Ejercicio JSON">
-      <change afterPath="$PROJECT_DIR$/src/BaseDatos.java" afterDir="false" />
+    <list default="true" id="fa6dbf03-e0af-4a38-a874-b44d974f56f5" name="Changes" comment="Anyado libreria MySQL">
+      <change afterPath="$PROJECT_DIR$/src/BaseDatos/BaseDatos.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BaseDatos.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +50,14 @@
       <recent name="B:\Cerbell\GSDAW\PROGRAMACIONJAVA\UNIDAD 7\PrgAvanzada\PrgAvanzada\src\Genericos" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LuviasJson">
+  <component name="RunManager" selected="Application.BaseDatos">
+    <configuration name="BaseDatos" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BaseDatos.BaseDatos" />
+      <module name="PrgAvanzada" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="InOut" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="IN_OUT.InOut" />
       <module name="PrgAvanzada" />
@@ -70,19 +78,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="IN_OUT.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RegExEjercicios" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ExpresionesRegulares.RegExEjercicios" />
-      <module name="PrgAvanzada" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ExpresionesRegulares.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,11 +113,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BaseDatos" />
         <item itemvalue="Application.LuviasJson" />
         <item itemvalue="Application.creandoJSON" />
         <item itemvalue="Application.json" />
         <item itemvalue="Application.InOut" />
-        <item itemvalue="Application.RegExEjercicios" />
       </list>
     </recent_temporary>
   </component>
@@ -226,7 +221,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684348395960</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Anyado libreria MySQL">
+      <created>1684762740976</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1684762740976</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -243,7 +245,8 @@
     <MESSAGE value="Acabado el primer ejercicio de JSON" />
     <MESSAGE value="Trabajando en el segundo ejercicio de Json. &#10;Creo las clases semana y dia&#10;Tambien en el cuerpo creo la recogida de datos cruda de la web. &#10;FALTA&#10;Partir el crudo y crear metodo de construccion de dias." />
     <MESSAGE value="Ejercicio JSON" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ejercicio JSON" />
+    <MESSAGE value="Anyado libreria MySQL" />
+    <option name="LAST_COMMIT_MESSAGE" value="Anyado libreria MySQL" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
