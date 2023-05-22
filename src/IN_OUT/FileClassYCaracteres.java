@@ -59,7 +59,7 @@ public class FileClassYCaracteres {
             while ((entrada = br.readLine()) != null) {
 
                 //Pensando en meter el siguiente if en un bucle pero tengo
-                //presente todo el rato que no es eficiente.
+                //presente all el rato que no es eficiente.
 
 if(entrada.substring(0).equals(" ")&&primero==0){
     entrada=entrada.substring(1,entrada.length());
