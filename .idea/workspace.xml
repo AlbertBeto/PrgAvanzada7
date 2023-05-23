@@ -5,8 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fa6dbf03-e0af-4a38-a874-b44d974f56f5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/textoConEspacios.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/textoConEspaciosSalida" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/IN_OUT/FileClassYCaracteres.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IN_OUT/FileClassYCaracteres.java" afterDir="false" />
     </list>
@@ -244,7 +242,21 @@
       <option name="project" value="LOCAL" />
       <updated>1684696187716</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Trabajando en el 3 ejercicio de 8.2 para quitar espacios al principio del texto.">
+      <created>1684716149180</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1684716149180</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Trabajando en el 3 ejercicio de 8.2 para quitar espacios al principio del texto.">
+      <created>1684716168519</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1684716168519</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -262,7 +274,8 @@
     <MESSAGE value="Acabado el segundo  ejercicio de JSON y preparado para aceptar los argumentos externos." />
     <MESSAGE value="Creo carpeta solo para JSON y muevo los archivos de IN/OUT a JSON" />
     <MESSAGE value="Creados los ejercicios 1 y 2 del 8.2 in out" />
-    <option name="LAST_COMMIT_MESSAGE" value="Creados los ejercicios 1 y 2 del 8.2 in out" />
+    <MESSAGE value="Trabajando en el 3 ejercicio de 8.2 para quitar espacios al principio del texto." />
+    <option name="LAST_COMMIT_MESSAGE" value="Trabajando en el 3 ejercicio de 8.2 para quitar espacios al principio del texto." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -274,7 +287,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/IN_OUT/FileClassYCaracteres.java</url>
-          <line>39</line>
+          <line>41</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
