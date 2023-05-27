@@ -5,8 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fa6dbf03-e0af-4a38-a874-b44d974f56f5" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/foto2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/IN_OUT/InsertarImagenPDF.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/IN_OUT/foto2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22_5_23_15_21__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22_5_23_15_21__Changes_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/IN_OUT/FileClassYCaracteres.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IN_OUT/FileClassYCaracteres.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PrgAvanzada.iml" beforeDir="false" afterPath="$PROJECT_DIR$/PrgAvanzada.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,23 +38,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;B:/Cerbell/GSDAW/PROGRAMACIONJAVA/UNIDAD 8/pdfbox-3.0.0-alpha3.jar&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "full.screen.before.presentation.mode": "true",
+    "last_opened_file_path": "B:/Cerbell/GSDAW/PROGRAMACIONJAVA/UNIDAD 7/PrgAvanzada/PrgAvanzada/src/IN_OUT",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="B:\Cerbell\GSDAW\PROGRAMACIONJAVA\UNIDAD 7\PrgAvanzada\PrgAvanzada\src\IN_OUT" />
+      <recent name="B:\Cerbell\GSDAW\PROGRAMACIONJAVA\UNIDAD 7\PrgAvanzada\PrgAvanzada" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="B:\Cerbell\GSDAW\PROGRAMACIONJAVA\UNIDAD 7\PrgAvanzada\PrgAvanzada\src\IN_OUT" />
+      <recent name="B:\Cerbell\GSDAW\PROGRAMACIONJAVA\UNIDAD 7\PrgAvanzada\PrgAvanzada\src" />
       <recent name="B:\Cerbell\GSDAW\PROGRAMACIONJAVA\UNIDAD 7\PrgAvanzada\PrgAvanzada" />
       <recent name="B:\Cerbell\GSDAW\PROGRAMACIONJAVA\UNIDAD 7\PrgAvanzada\PrgAvanzada\src\Genericos" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FileClassYCaracteres">
+  <component name="RunManager" selected="Application.LuviasJson">
     <configuration name="FileClassYCaracteres" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="IN_OUT.FileClassYCaracteres" />
       <module name="PrgAvanzada" />
@@ -64,13 +76,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InOut" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="IN_OUT.InOut" />
+    <configuration name="InsertarImagenPDF" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="IN_OUT.InsertarImagenPDF" />
       <module name="PrgAvanzada" />
-      <option name="PROGRAM_PARAMETERS" value="datos.dat pruebaSalidaTexto2.dat" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="JSON.*" />
+          <option name="PATTERN" value="IN_OUT.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -120,11 +131,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.FileClassYCaracteres" />
         <item itemvalue="Application.LuviasJson" />
+        <item itemvalue="Application.InsertarImagenPDF" />
+        <item itemvalue="Application.FileClassYCaracteres" />
         <item itemvalue="Application.creandoJSON" />
         <item itemvalue="Application.json" />
-        <item itemvalue="Application.InOut" />
       </list>
     </recent_temporary>
   </component>
@@ -256,7 +267,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684716168519</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Acabado el el tercer ejercicio del 8.2">
+      <created>1684866111175</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1684866111175</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -275,7 +293,8 @@
     <MESSAGE value="Creo carpeta solo para JSON y muevo los archivos de IN/OUT a JSON" />
     <MESSAGE value="Creados los ejercicios 1 y 2 del 8.2 in out" />
     <MESSAGE value="Trabajando en el 3 ejercicio de 8.2 para quitar espacios al principio del texto." />
-    <option name="LAST_COMMIT_MESSAGE" value="Trabajando en el 3 ejercicio de 8.2 para quitar espacios al principio del texto." />
+    <MESSAGE value="Acabado el el tercer ejercicio del 8.2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Acabado el el tercer ejercicio del 8.2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
