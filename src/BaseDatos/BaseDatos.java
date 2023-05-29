@@ -5,6 +5,44 @@ import java.time.LocalDateTime;
 
 public class BaseDatos {
 
+
+    public static void execute(){
+
+        String url = "jdbc:mysql://localhost/mydb";
+        String insert = "INSERT INTO login (username, password) VALUES (?, ?)";
+        ResultSet result;
+
+        try(Connection connection = DriverManager.getConnection(url); PreparedStatement pS= connection.prepareStatement(insert, Statement.RETURN_GENERATED_KEYS)){
+
+            //Vamos a cambiar el autocommit
+            boolean autocommit = connection.getAutoCommit();
+            connection.setAutoCommit(false);
+
+            //Establecemos valores en la query
+            pS.setString(1,"user");
+            pS.setString(2,"password");
+            LocalDateTime now = LocalDateTime.now();
+            pS.setTimestamp(3,Timestamp.valueOf(now));
+
+            pS.execute();
+            result= pS.getGeneratedKeys();
+
+            if (result.next()) {
+                int id = result.getInt(1);
+                System.out.println(id);
+            }
+            //Queremos que cuando hagamos un commit actualize el campo de la fecha con la fecha del momento.
+
+
+            //Realizamos el commit si no ha saltado ningun error
+            connection.commit();
+            connection.setAutoCommit(autocommit);
+
+        }catch (SQLException e){
+            System.out.println(e.getMessage());
+        }
+    }
+
     public static void main(String[] args) {
 
         String user = "root";
@@ -17,7 +55,7 @@ public class BaseDatos {
         //IMPORTANTE: ESTO ES UN TRY WITH RESOURCES, QUE YA CIERRA TODA LAS CONEXIONES AUTOMATICAMENTE.
         try(Connection connection = DriverManager.getConnection(url,user,password); Statement statement = connection.createStatement(); PreparedStatement preparedStatement = connection.prepareStatement(sqlpre,Statement.RETURN_GENERATED_KEYS);){
 
-            // Desconecto el exequite sql ya que me da errores cuanlo lo lanzo una segunda vez.
+            // Desconecto el exequite sql ya que me da errores cuando lo lanzo una segunda vez.
             //  statement.execute(sql);
             preparedStatement.setString(1,"Edu");
             preparedStatement.setString(2,"Edu");
@@ -44,7 +82,7 @@ public class BaseDatos {
 
 
 
-            /* Otra manera es esta o la mas tradicional:
+            /* Otra manera es esta o la más tradicional:
             Statement statement = connection.createStatement();
              statement.execute(sql);
              statement.close();
