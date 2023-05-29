@@ -4,13 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa6dbf03-e0af-4a38-a874-b44d974f56f5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/foto2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/IN_OUT/InsertarImagenPDF.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/IN_OUT/foto2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22_5_23_15_21__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22_5_23_15_21__Changes_.xml" afterDir="false" />
+    <list default="true" id="fa6dbf03-e0af-4a38-a874-b44d974f56f5" name="Changes" comment="Siguiendo metiendo mano a la conexion de BD y creando una estructura de como debe hacerse">
+      <change afterPath="$PROJECT_DIR$/src/BaseDatos/NeoProyecto/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PrgAvanzada.iml" beforeDir="false" afterPath="$PROJECT_DIR$/PrgAvanzada.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BaseDatos/NeoProyecto/Model/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BaseDatos/NeoProyecto/Model/Login.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BaseDatos/NeoProyecto/Mysql/LoginHandleDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BaseDatos/NeoProyecto/Mysql/LoginHandleDB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BaseDatos/NeoProyecto/util/DatabaseConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BaseDatos/NeoProyecto/util/DatabaseConnection.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,18 +37,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "full.screen.before.presentation.mode": "true",
-    "last_opened_file_path": "B:/Cerbell/GSDAW/PROGRAMACIONJAVA/UNIDAD 7/PrgAvanzada/PrgAvanzada/src/IN_OUT",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;full.screen.before.presentation.mode&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;B:/Cerbell/GSDAW/PROGRAMACIONJAVA/UNIDAD 7/PrgAvanzada/PrgAvanzada/src/IN_OUT&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="B:\Cerbell\GSDAW\PROGRAMACIONJAVA\UNIDAD 7\PrgAvanzada\PrgAvanzada\src\IN_OUT" />
@@ -62,7 +61,7 @@
       <recent name="B:\Cerbell\GSDAW\PROGRAMACIONJAVA\UNIDAD 7\PrgAvanzada\PrgAvanzada\src\Genericos" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LuviasJson">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="FileClassYCaracteres" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="IN_OUT.FileClassYCaracteres" />
       <module name="PrgAvanzada" />
@@ -103,6 +102,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BaseDatos.NeoProyecto.Main" />
+      <module name="PrgAvanzada" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="BaseDatos.NeoProyecto.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="creandoJSON" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="JSON.creandoJSON" />
       <module name="PrgAvanzada" />
@@ -116,26 +128,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="json" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JSON.json" />
-      <module name="PrgAvanzada" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="JSON.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.LuviasJson" />
         <item itemvalue="Application.InsertarImagenPDF" />
         <item itemvalue="Application.FileClassYCaracteres" />
         <item itemvalue="Application.creandoJSON" />
-        <item itemvalue="Application.json" />
       </list>
     </recent_temporary>
   </component>
@@ -274,7 +273,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684866111175</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Siguiendo metiendo mano a la conexion de BD y creando una estructura de como debe hacerse">
+      <created>1685370256741</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1685370256741</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -294,7 +300,8 @@
     <MESSAGE value="Creados los ejercicios 1 y 2 del 8.2 in out" />
     <MESSAGE value="Trabajando en el 3 ejercicio de 8.2 para quitar espacios al principio del texto." />
     <MESSAGE value="Acabado el el tercer ejercicio del 8.2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Acabado el el tercer ejercicio del 8.2" />
+    <MESSAGE value="Siguiendo metiendo mano a la conexion de BD y creando una estructura de como debe hacerse" />
+    <option name="LAST_COMMIT_MESSAGE" value="Siguiendo metiendo mano a la conexion de BD y creando una estructura de como debe hacerse" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -308,6 +315,11 @@
           <url>file://$PROJECT_DIR$/src/IN_OUT/FileClassYCaracteres.java</url>
           <line>41</line>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/BaseDatos/NeoProyecto/Mysql/LoginHandleDB.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

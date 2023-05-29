@@ -11,14 +11,17 @@ public class DatabaseConnection {
     private static Connection connection = null;
 
 
-    {
+    static {
         //Este es un campo estatico que me perimitw dar valor a connection que es statico.
         String url = "jdbc:mysql://localhost/mydb";
         String user = "root";
         String password = "Warrilinux";
         try{
-            connection = DriverManager.getConnection(url);
-        }catch (SQLException e){}
+            //Aqui a lo mejor falta meterlo el user y password.
+            connection = DriverManager.getConnection(url, user, password);
+        }catch (SQLException e){
+            e.printStackTrace();
+        }
 
     }
     private DatabaseConnection(){
