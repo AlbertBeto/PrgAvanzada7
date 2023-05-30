@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa6dbf03-e0af-4a38-a874-b44d974f56f5" name="Changes" comment="Siguiendo metiendo mano a la conexion de BD y creando una estructura de como debe hacerse">
-      <change afterPath="$PROJECT_DIR$/src/BaseDatos/NeoProyecto/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BaseDatos/NeoProyecto/Model/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BaseDatos/NeoProyecto/Model/Login.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BaseDatos/NeoProyecto/Mysql/LoginHandleDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BaseDatos/NeoProyecto/Mysql/LoginHandleDB.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BaseDatos/NeoProyecto/util/DatabaseConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BaseDatos/NeoProyecto/util/DatabaseConnection.java" afterDir="false" />
-    </list>
+    <list default="true" id="fa6dbf03-e0af-4a38-a874-b44d974f56f5" name="Changes" comment="Creada toda la conexion en la parte proyecto" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -280,7 +274,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685370256741</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Creada toda la conexion en la parte proyecto">
+      <created>1685371773020</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1685371773020</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -301,7 +302,8 @@
     <MESSAGE value="Trabajando en el 3 ejercicio de 8.2 para quitar espacios al principio del texto." />
     <MESSAGE value="Acabado el el tercer ejercicio del 8.2" />
     <MESSAGE value="Siguiendo metiendo mano a la conexion de BD y creando una estructura de como debe hacerse" />
-    <option name="LAST_COMMIT_MESSAGE" value="Siguiendo metiendo mano a la conexion de BD y creando una estructura de como debe hacerse" />
+    <MESSAGE value="Creada toda la conexion en la parte proyecto" />
+    <option name="LAST_COMMIT_MESSAGE" value="Creada toda la conexion en la parte proyecto" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -318,8 +320,8 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/BaseDatos/NeoProyecto/Mysql/LoginHandleDB.java</url>
-          <line>22</line>
-          <option name="timeStamp" value="3" />
+          <line>27</line>
+          <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
