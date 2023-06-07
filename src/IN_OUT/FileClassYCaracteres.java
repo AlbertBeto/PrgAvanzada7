@@ -109,10 +109,17 @@ public class FileClassYCaracteres {
         }
         }
 
+
+
+
     public static void main(String[] args) {
 //operacionInOut("textoprueba.txt");
 //lecturaInOut("textoprueba.txt");
 quitaEspacios("textoConEspacios.txt");
+
+
+
+
     //main
     }
  //class

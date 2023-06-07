@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa6dbf03-e0af-4a38-a874-b44d974f56f5" name="Changes" comment="Creada toda la conexion en la parte proyecto">
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_5_23_19_38_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_5_23_19_38__Changes_.xml" beforeDir="false" />
+    <list default="true" id="fa6dbf03-e0af-4a38-a874-b44d974f56f5" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/IN_OUT/ArchivosAleatorios.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textoAleatorio.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/IN_OUT/FileClassYCaracteres.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IN_OUT/FileClassYCaracteres.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/IN_OUT/FilePath.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IN_OUT/FilePath.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,9 +61,35 @@
       <recent name="B:\Cerbell\GSDAW\PROGRAMACIONJAVA\UNIDAD 7\PrgAvanzada\PrgAvanzada\src\Genericos" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.ArchivosAleatorios">
+    <configuration name="ArchivosAleatorios" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="IN_OUT.ArchivosAleatorios" />
+      <module name="PrgAvanzada" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="IN_OUT.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="FileClassYCaracteres" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="IN_OUT.FileClassYCaracteres" />
+      <module name="PrgAvanzada" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="IN_OUT.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FilePath" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="IN_OUT.FilePath" />
       <module name="PrgAvanzada" />
       <extension name="coverage">
         <pattern>
@@ -100,39 +128,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BaseDatos.NeoProyecto.Main" />
-      <module name="PrgAvanzada" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="BaseDatos.NeoProyecto.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="creandoJSON" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JSON.creandoJSON" />
-      <module name="PrgAvanzada" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="JSON.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.ArchivosAleatorios" />
+        <item itemvalue="Application.FilePath" />
+        <item itemvalue="Application.FileClassYCaracteres" />
         <item itemvalue="Application.LuviasJson" />
         <item itemvalue="Application.InsertarImagenPDF" />
-        <item itemvalue="Application.FileClassYCaracteres" />
-        <item itemvalue="Application.creandoJSON" />
       </list>
     </recent_temporary>
   </component>
@@ -292,7 +294,7 @@
       <option name="project" value="LOCAL" />
       <updated>1685470779995</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -312,9 +314,7 @@
     <MESSAGE value="Creados los ejercicios 1 y 2 del 8.2 in out" />
     <MESSAGE value="Trabajando en el 3 ejercicio de 8.2 para quitar espacios al principio del texto." />
     <MESSAGE value="Acabado el el tercer ejercicio del 8.2" />
-    <MESSAGE value="Siguiendo metiendo mano a la conexion de BD y creando una estructura de como debe hacerse" />
-    <MESSAGE value="Creada toda la conexion en la parte proyecto" />
-    <option name="LAST_COMMIT_MESSAGE" value="Creada toda la conexion en la parte proyecto" />
+    <option name="LAST_COMMIT_MESSAGE" value="Acabado el el tercer ejercicio del 8.2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
