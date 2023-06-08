@@ -5,10 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fa6dbf03-e0af-4a38-a874-b44d974f56f5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/EnterosArchivosAleatorios.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/IN_OUT/ArchivosAleatorios2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/IN_OUT/MeteDatosArchivosAleatorios.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/IN_OUT/ModificaIntDentroArchivoAleatorio.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/IN_OUT/NIO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -61,22 +58,9 @@
       <recent name="B:\Cerbell\GSDAW\PROGRAMACIONJAVA\UNIDAD 7\PrgAvanzada\PrgAvanzada\src\Genericos" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ModificaIntDentroArchivoAleatorio">
+  <component name="RunManager" selected="Application.NIO">
     <configuration name="ArchivosAleatorios" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="IN_OUT.ArchivosAleatorios" />
-      <module name="PrgAvanzada" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="IN_OUT.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FileClassYCaracteres" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="IN_OUT.FileClassYCaracteres" />
       <module name="PrgAvanzada" />
       <extension name="coverage">
         <pattern>
@@ -127,13 +111,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="NIO" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="IN_OUT.NIO" />
+      <module name="PrgAvanzada" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="IN_OUT.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.NIO" />
         <item itemvalue="Application.ModificaIntDentroArchivoAleatorio" />
         <item itemvalue="Application.MeteDatosArchivosAleatorios" />
         <item itemvalue="Application.ArchivosAleatorios" />
         <item itemvalue="Application.FilePath" />
-        <item itemvalue="Application.FileClassYCaracteres" />
       </list>
     </recent_temporary>
   </component>
@@ -279,12 +276,12 @@
       <option name="project" value="LOCAL" />
       <updated>1686101492968</updated>
     </task>
-    <task id="LOCAL-00020" summary="Creada toda la conexion en la parte proyecto">
-      <created>1685371773020</created>
+    <task id="LOCAL-00020" summary="SEgundo ejercicio del 8.3 Archivos Aleatorios">
+      <created>1686242945676</created>
       <option name="number" value="00020" />
       <option name="presentableId" value="LOCAL-00020" />
       <option name="project" value="LOCAL" />
-      <updated>1685371773020</updated>
+      <updated>1686242945676</updated>
     </task>
     <task id="LOCAL-00021" summary="Creada toda la conexion en la parte proyecto">
       <created>1685470779995</created>
@@ -293,7 +290,7 @@
       <option name="project" value="LOCAL" />
       <updated>1685470779995</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -314,7 +311,8 @@
     <MESSAGE value="Trabajando en el 3 ejercicio de 8.2 para quitar espacios al principio del texto." />
     <MESSAGE value="Acabado el el tercer ejercicio del 8.2" />
     <MESSAGE value="Acabado el 8.2 y acabado el primer ejericico del 8.3 de Archivos aleatorios." />
-    <option name="LAST_COMMIT_MESSAGE" value="Acabado el 8.2 y acabado el primer ejericico del 8.3 de Archivos aleatorios." />
+    <MESSAGE value="SEgundo ejercicio del 8.3 Archivos Aleatorios" />
+    <option name="LAST_COMMIT_MESSAGE" value="SEgundo ejercicio del 8.3 Archivos Aleatorios" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
