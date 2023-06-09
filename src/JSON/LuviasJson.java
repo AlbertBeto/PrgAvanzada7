@@ -50,7 +50,7 @@ public class LuviasJson {
             Double longitud=0.0;
             Double latitud=0.0;
 
-
+/*
             //Este módulo es para confirmar el orden de los argumentos de entrada
             if (args[0].equals("-lon")){
                 longitud = Double.parseDouble(args[1]);
@@ -62,14 +62,14 @@ public class LuviasJson {
                 System.out.println("Ha introducido erroneamente los argumentos. Vuelva a intentarlo");
             }
 
-
-            /*  //Este modulo es para introducir manualmente la longitud y la latitud
+*/
+             //Este modulo es para introducir manualmente la longitud y la latitud
         Scanner scan = new Scanner(System.in);
         System.out.println("Introduzca Longitud:");
         longitud= sc.nextDouble();
         System.out.println("Introduzca Latitud:");
         latitud= sc.nextDouble();
-*/
+
         System.out.println("Que día de la semana quieres saber?");
         int diaVer;
         diaVer = sc.nextInt()-1;
