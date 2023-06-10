@@ -5,14 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fa6dbf03-e0af-4a38-a874-b44d974f56f5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/BaseDatos/NeoProyecto/util/DataBaseInsertCheckDeleteUpdate.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PrgAvanzada.iml" beforeDir="false" afterPath="$PROJECT_DIR$/PrgAvanzada.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BaseDatos/BaseDatos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BaseDatos/BaseDatos.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/BaseDatos/NeoProyecto/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BaseDatos/NeoProyecto/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/BaseDatos/NeoProyecto/Model/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BaseDatos/NeoProyecto/Model/Login.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/BaseDatos/NeoProyecto/Mysql/LoginHandleDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BaseDatos/NeoProyecto/Mysql/LoginHandleDB.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BaseDatos/NeoProyecto/util/DatabaseConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BaseDatos/NeoProyecto/util/DatabaseConnection.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -310,7 +306,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686350728281</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Creado metodo conexion bd para insertar objetos. 9.1.6">
+      <created>1686419777489</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1686419777489</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -335,7 +338,8 @@
     <MESSAGE value="NIO 8.4" />
     <MESSAGE value="Han aparecido pendientes" />
     <MESSAGE value="He corregido el 8.5 para entregar" />
-    <option name="LAST_COMMIT_MESSAGE" value="He corregido el 8.5 para entregar" />
+    <MESSAGE value="Creado metodo conexion bd para insertar objetos. 9.1.6" />
+    <option name="LAST_COMMIT_MESSAGE" value="Creado metodo conexion bd para insertar objetos. 9.1.6" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -359,6 +363,30 @@
           <url>file://$PROJECT_DIR$/src/JSON/ElTiempoAPB.java</url>
           <line>52</line>
           <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/BaseDatos/NeoProyecto/Main.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/BaseDatos/NeoProyecto/Mysql/LoginHandleDB.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/BaseDatos/NeoProyecto/Mysql/LoginHandleDB.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/BaseDatos/NeoProyecto/Mysql/LoginHandleDB.java</url>
+          <line>11</line>
+          <properties class="BaseDatos.NeoProyecto.Mysql.LoginHandleDB" method="getLogin">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="16" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

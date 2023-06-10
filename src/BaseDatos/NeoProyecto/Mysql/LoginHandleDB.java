@@ -9,8 +9,26 @@ import java.util.List;
 
 public class LoginHandleDB {
 
+    public Login getLogin(String name, String password) throws SQLException {
+        Connection c = DatabaseConnection.getConnection();
+        String query = "SELECT idlogin FROM login l WHERE username=? AND l.password=?";
+        PreparedStatement pS=c.prepareStatement(query);
+        pS.setString(1,name);
+        pS.setString(2,password);
+        ResultSet rs = pS.executeQuery();
+        if (rs.next()){
+
+               int idLogin=rs.getInt("idLogin");
+                System.out.println("El usuario existe con id"+idLogin);
+           return null;
+        }else {
+            System.out.println("El usuario no existe");
+        return null;}
+    }
+
+
     //insert
-    public void addLogin(Login usuarioLogin){
+    public int addLogin(Login usuarioLogin){
         Connection c = DatabaseConnection.getConnection();
         String query = "INSERT INTO login (username,password,createdAt) values(?,?,?)";
         try{
@@ -28,6 +46,7 @@ public class LoginHandleDB {
 
         System.out.println(e.getMessage());
     }
+        return 0;
     }
 
     //select
@@ -43,13 +62,15 @@ public class LoginHandleDB {
             List<Login> lg = new ArrayList<>();
             //Llamo a mi query
             ResultSet rs = stat.executeQuery(query);
+
             while (rs.next()){
-                Login login = new Login("Patri","PatriPatri");
+               Login login = new Login();
                 login.setId(rs.getInt(1));
                 login.setUsername(rs.getString("username"));
                 login.setPassword(rs.getString("password"));
-                login.setCreatedAt(rs.getTimestamp("created").toLocalDateTime());
+                login.setCreatedAt(rs.getTimestamp("createdAt").toLocalDateTime());
                 lg.add(login);
+
             }
             return lg;
         }

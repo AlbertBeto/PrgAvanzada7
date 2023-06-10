@@ -6,7 +6,7 @@ import BaseDatos.NeoProyecto.Mysql.LoginHandleDB;
 import java.sql.SQLException;
 
 public class Main {
-//Importante confirmar que tenemos las librerias necesarias instaladas tales como MySQL.
+//Importante confirmar que tenemos las librerías necesarias instaladas tales como MySQL.
 
     public static void main(String[] args) {
         Login Albert = new Login("Albert","Beto");
@@ -14,10 +14,12 @@ public class Main {
 
         LoginHandleDB loginHandleDB = new LoginHandleDB();
 
-        loginHandleDB.addLogin(Albert);
+       // loginHandleDB.addLogin(Albert);
 
         try {
             System.out.println(loginHandleDB.getLogins());
+
+            loginHandleDB.getLogin("Albert","Befffto");
         }catch (SQLException e){
             System.out.println("Error al obtener la lista de logins de la base de datos.");
         }
