@@ -9,6 +9,27 @@ import java.util.List;
 
 public class LoginHandleDB {
 
+
+    public Login getLogin(int id) throws SQLException {
+        Connection c = DatabaseConnection.getConnection();
+        String query = "SELECT * FROM login WHERE idlogin=?";
+        PreparedStatement pS=c.prepareStatement(query);
+        pS.setInt(1,id);
+       ResultSet rs = pS.executeQuery();
+                Login login = null;
+                if (rs.next()) {
+                    login = new Login();
+                    login.setId(rs.getInt(1));
+                    login.setUsername(rs.getString("username"));
+                    login.setPassword(rs.getString("password"));
+                    login.setCreatedAt(rs.getTimestamp("createdAt").toLocalDateTime());
+                }
+                rs.close();
+               pS.close();
+        return login;
+    }
+
+
     public void update (Login usuarioOriginal, Login neoUsuario) throws SQLException {
         Connection c = DatabaseConnection.getConnection();
         int id= getId(usuarioOriginal.getUsername(), usuarioOriginal.getPassword());
@@ -70,6 +91,19 @@ public class LoginHandleDB {
             return -1;}
 
     }
+
+    public String getName(int id) throws SQLException {
+        Connection c = DatabaseConnection.getConnection();
+        String query = "SELECT username FROM login WHERE idLogin=?";
+        PreparedStatement pS=c.prepareStatement(query);
+        pS.setInt(1,id);
+        ResultSet rs = pS.executeQuery();
+        String name = rs.getString("username");
+        pS.close();
+        return name;
+           }
+
+
 
 
     //insert

@@ -25,7 +25,9 @@ public class Main {
             System.out.println(loginHandleDB.getLogins());
             //loginHandleDB.getId("Albert","Befffto");
            // loginHandleDB.deleteUser(13);
-            loginHandleDB.update(Mai,NeoMai);
+            //loginHandleDB.update(Mai,NeoMai);
+
+            System.out.println(loginHandleDB.getLogin(15));
 
         }catch (SQLException e){
             System.out.println("Error al obtener la lista de logins de la base de datos.");

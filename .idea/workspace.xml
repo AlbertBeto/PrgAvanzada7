@@ -8,7 +8,6 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/BaseDatos/NeoProyecto/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BaseDatos/NeoProyecto/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/BaseDatos/NeoProyecto/Mysql/LoginHandleDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BaseDatos/NeoProyecto/Mysql/LoginHandleDB.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BaseDatos/NeoProyecto/util/DataBaseInsertCheckDeleteUpdate.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -334,11 +333,17 @@
       <option name="project" value="LOCAL" />
       <updated>1686427049228</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="Creado el update y modificado todo el sistema para que no se pueda repetir nombres de usuario.">
+      <created>1686429201838</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1686429201838</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Acabados los Streams" />
     <MESSAGE value="Realizados hasta ahora los 4 ejercicios de Streams2.&#10;Empiezo el quinto" />
     <MESSAGE value="Acabado el 5" />
     <MESSAGE value="Acabado el 6" />
@@ -363,7 +368,8 @@
     <MESSAGE value="Creados los metodos add, check" />
     <MESSAGE value="Creados los metodos delete y modificaciones en todos los demas metodos." />
     <MESSAGE value="Creo metodo checkname y lo incluyo en addLogin." />
-    <option name="LAST_COMMIT_MESSAGE" value="Creo metodo checkname y lo incluyo en addLogin." />
+    <MESSAGE value="Creado el update y modificado todo el sistema para que no se pueda repetir nombres de usuario." />
+    <option name="LAST_COMMIT_MESSAGE" value="Creado el update y modificado todo el sistema para que no se pueda repetir nombres de usuario." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -388,19 +394,14 @@
           <line>52</line>
           <option name="timeStamp" value="7" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/BaseDatos/NeoProyecto/Main.java</url>
-          <line>27</line>
-          <option name="timeStamp" value="34" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/BaseDatos/NeoProyecto/Mysql/LoginHandleDB.java</url>
-          <line>11</line>
-          <properties class="BaseDatos.NeoProyecto.Mysql.LoginHandleDB" method="update">
+          <line>12</line>
+          <properties class="BaseDatos.NeoProyecto.Mysql.LoginHandleDB" method="getLogin">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
-          <option name="timeStamp" value="35" />
+          <option name="timeStamp" value="36" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
