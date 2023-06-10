@@ -9,8 +9,16 @@ import java.util.List;
 
 public class LoginHandleDB {
 
-    public void update (Login usuario){
-
+    public void update (Login usuarioOriginal, Login neoUsuario) throws SQLException {
+        Connection c = DatabaseConnection.getConnection();
+        int id= getId(usuarioOriginal.getUsername(), usuarioOriginal.getPassword());
+        String query = "UPDATE login SET username=?,password=? WHERE idlogin=?";
+        PreparedStatement pS=c.prepareStatement(query);
+        pS.setString(1,neoUsuario.getUsername());
+        pS.setString(2, neoUsuario.getPassword());
+        pS.setInt(3,id);
+        pS.executeUpdate();
+        pS.close();
     }
 
 
