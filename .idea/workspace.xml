@@ -5,8 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fa6dbf03-e0af-4a38-a874-b44d974f56f5" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/BaseDatos/NeoProyecto/util/DataBaseInsertCheckDeleteUpdate.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JSON/LuviasJson.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JSON/LuviasJson.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PrgAvanzada.iml" beforeDir="false" afterPath="$PROJECT_DIR$/PrgAvanzada.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BaseDatos/BaseDatos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BaseDatos/BaseDatos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BaseDatos/NeoProyecto/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BaseDatos/NeoProyecto/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BaseDatos/NeoProyecto/Model/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BaseDatos/NeoProyecto/Model/Login.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BaseDatos/NeoProyecto/Mysql/LoginHandleDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BaseDatos/NeoProyecto/Mysql/LoginHandleDB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BaseDatos/NeoProyecto/util/DatabaseConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BaseDatos/NeoProyecto/util/DatabaseConnection.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,8 +45,8 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "full.screen.before.presentation.mode": "true",
-    "last_opened_file_path": "B:/Cerbell/GSDAW/PROGRAMACIONJAVA/UNIDAD 7/PrgAvanzada/PrgAvanzada/src/IN_OUT",
-    "project.structure.last.edited": "SDKs",
+    "last_opened_file_path": "B:/Cerbell/GSDAW/PROGRAMACIONJAVA/UNIDAD 9/mysql-connector-j-8.0.33.jar",
+    "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "preferences.lookFeel"
@@ -58,7 +64,7 @@
       <recent name="B:\Cerbell\GSDAW\PROGRAMACIONJAVA\UNIDAD 7\PrgAvanzada\PrgAvanzada\src\Genericos" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LuviasJson">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="ElTiempoAPB" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="JSON.ElTiempoAPB" />
       <module name="PrgAvanzada" />
@@ -85,12 +91,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ModificaIntDentroArchivoAleatorio" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="IN_OUT.ModificaIntDentroArchivoAleatorio" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BaseDatos.NeoProyecto.Main" />
       <module name="PrgAvanzada" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="IN_OUT.*" />
+          <option name="PATTERN" value="BaseDatos.NeoProyecto.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -126,11 +132,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.LuviasJson" />
         <item itemvalue="Application.ElTiempoAPB" />
         <item itemvalue="Application.creandoJSON" />
         <item itemvalue="Application.NIO" />
-        <item itemvalue="Application.ModificaIntDentroArchivoAleatorio" />
       </list>
     </recent_temporary>
   </component>
@@ -297,7 +303,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686248371415</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="He corregido el 8.5 para entregar">
+      <created>1686350728281</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1686350728281</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -321,7 +334,8 @@
     <MESSAGE value="SEgundo ejercicio del 8.3 Archivos Aleatorios" />
     <MESSAGE value="NIO 8.4" />
     <MESSAGE value="Han aparecido pendientes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Han aparecido pendientes" />
+    <MESSAGE value="He corregido el 8.5 para entregar" />
+    <option name="LAST_COMMIT_MESSAGE" value="He corregido el 8.5 para entregar" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

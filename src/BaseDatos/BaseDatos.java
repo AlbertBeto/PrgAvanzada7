@@ -57,8 +57,8 @@ public class BaseDatos {
 
             // Desconecto el exequite sql ya que me da errores cuando lo lanzo una segunda vez.
             //  statement.execute(sql);
-            preparedStatement.setString(1,"Edu");
-            preparedStatement.setString(2,"Edu");
+            preparedStatement.setString(1,"Patri");
+            preparedStatement.setString(2,"Beto");
             LocalDateTime now = LocalDateTime.now();
             preparedStatement.setTimestamp(3,Timestamp.valueOf(now));
             preparedStatement.execute();

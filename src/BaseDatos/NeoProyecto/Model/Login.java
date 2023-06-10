@@ -9,7 +9,11 @@ public class Login {
     private String password;
     private LocalDateTime createdAt;
 
-    public Login(){}
+    public Login(String nombre, String password){
+        this.username=nombre;
+        this.password=password;
+        this.createdAt=LocalDateTime.now();
+    }
 
     public int getId() {
         return id;
