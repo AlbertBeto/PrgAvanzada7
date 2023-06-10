@@ -9,6 +9,12 @@ import java.util.List;
 
 public class LoginHandleDB {
 
+    public void update (Login usuario){
+
+    }
+
+
+
     public void deleteUser(int id) throws SQLException {
         Connection c = DatabaseConnection.getConnection();
         String query = "DELETE FROM login WHERE idlogin=?";
@@ -39,24 +45,44 @@ public class LoginHandleDB {
 
     }
 
+    public int checkName(String name) throws SQLException {
+        Connection c = DatabaseConnection.getConnection();
+        String query = "SELECT idlogin FROM login l WHERE username=?";
+        PreparedStatement pS=c.prepareStatement(query);
+        pS.setString(1,name);
+        ResultSet rs = pS.executeQuery();
+        if (rs.next()){
+            int idLogin=rs.getInt("idLogin");
+           // System.out.println("El usuario existe con id"+idLogin);
+            pS.close();
+            return idLogin;
+        }else {
+            //System.out.println("El usuario no existe");
+            pS.close();
+            return -1;}
+
+    }
+
 
     //insert
     public int addLogin(Login usuarioLogin){
         Connection c = DatabaseConnection.getConnection();
         String query = "INSERT INTO login (username,password,createdAt) values(?,?,?)";
         try{
+            if (checkName(usuarioLogin.getUsername())>=0){
+                System.out.println("El nombre de usuario ya existe. Escoja otro nombre");
+                return -1;
+            }else {
                 PreparedStatement pS= c.prepareStatement(query, Statement.RETURN_GENERATED_KEYS);
            pS.setString(1,usuarioLogin.getUsername());
             pS.setString(2,usuarioLogin.getPassword());
             pS.setObject(3,usuarioLogin.getCreatedAt());
             //"++","+usuarioLogin.getPassword()+","+usuarioLogin.getCreatedAt()+"
             pS.execute();
-            pS.close();
+            pS.close();}
      }catch (SQLException e){
-
         System.out.println(e.getMessage());
     }
-
         return 0;
     }
 
