@@ -14,12 +14,14 @@ public class Main {
 
         LoginHandleDB loginHandleDB = new LoginHandleDB();
 
-       // loginHandleDB.addLogin(Albert);
+
 
         try {
-            System.out.println(loginHandleDB.getLogins());
 
-            loginHandleDB.getLogin("Albert","Befffto");
+            loginHandleDB.addLogin(Albert);
+            System.out.println(loginHandleDB.getLogins());
+            loginHandleDB.getId("Albert","Befffto");
+            loginHandleDB.deleteUser(13);
         }catch (SQLException e){
             System.out.println("Error al obtener la lista de logins de la base de datos.");
         }

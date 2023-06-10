@@ -9,7 +9,17 @@ import java.util.List;
 
 public class LoginHandleDB {
 
-    public Login getLogin(String name, String password) throws SQLException {
+    public void deleteUser(int id) throws SQLException {
+        Connection c = DatabaseConnection.getConnection();
+        String query = "DELETE FROM login WHERE idlogin=?";
+        PreparedStatement pS=c.prepareStatement(query);
+        pS.setInt(1,id);
+        pS.executeUpdate();
+        pS.close();
+
+    }
+
+    public int getId(String name, String password) throws SQLException {
         Connection c = DatabaseConnection.getConnection();
         String query = "SELECT idlogin FROM login l WHERE username=? AND l.password=?";
         PreparedStatement pS=c.prepareStatement(query);
@@ -20,10 +30,13 @@ public class LoginHandleDB {
 
                int idLogin=rs.getInt("idLogin");
                 System.out.println("El usuario existe con id"+idLogin);
-           return null;
+            pS.close();
+           return idLogin;
         }else {
             System.out.println("El usuario no existe");
-        return null;}
+            pS.close();
+        return -1;}
+
     }
 
 
@@ -37,21 +50,18 @@ public class LoginHandleDB {
             pS.setString(2,usuarioLogin.getPassword());
             pS.setObject(3,usuarioLogin.getCreatedAt());
             //"++","+usuarioLogin.getPassword()+","+usuarioLogin.getCreatedAt()+"
-
             pS.execute();
-
             pS.close();
-            c.close();
      }catch (SQLException e){
 
         System.out.println(e.getMessage());
     }
+
         return 0;
     }
 
     //select
     //update
-    //delete
     // Otro metodo o busqueda
 
     //Lanzo el error hacia arriba, ya que este metodo solo devuelve los logins el resto que lo hagan arriba
