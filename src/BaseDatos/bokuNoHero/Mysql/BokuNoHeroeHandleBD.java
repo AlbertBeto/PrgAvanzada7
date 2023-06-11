@@ -52,6 +52,8 @@ public class BokuNoHeroeHandleBD {
 
     }
 
+    //No necesario ya que se pueden repetir los poderes, aunque podriamos añadir comprobar el poder y el heroe.
+    /*
     public int checkPower(String name) throws SQLException {
         Connection c = BaseDatos.bokuNoHero.Util.DatabaseConnection.getConnection();
         String query = "SELECT id FROM quirq WHERE nombre=?";
@@ -69,6 +71,7 @@ public class BokuNoHeroeHandleBD {
             return -1;}
 
     }
+*/
 
     public int checkIdHeroe(String nickname) throws SQLException {
         Connection c = BaseDatos.bokuNoHero.Util.DatabaseConnection.getConnection();
@@ -78,11 +81,11 @@ public class BokuNoHeroeHandleBD {
         ResultSet rs = pS.executeQuery();
         if (rs.next()){
             int idHeroe=rs.getInt("id");
-            System.out.println("El heroe existe con id"+idHeroe);
+           // System.out.println("El heroe existe con id"+idHeroe);
             pS.close();
             return idHeroe;
         }else {
-            System.out.println("El usuario no existe");
+            //System.out.println("El usuario no existe");
             pS.close();
             return -1;}
 
