@@ -108,7 +108,23 @@ public class BokuNoHeroeHandleBD {
             }
     }
 
+public static void mediaEdad()  {
+    String query = "SELECT avg(edad) AS media FROM heroe";
+    Connection c = BaseDatos.bokuNoHero.Util.DatabaseConnection.getConnection();
+    try {
+        PreparedStatement pS = c.prepareStatement(query);
+        ResultSet rs = pS.executeQuery();
+        if (rs.next()) {
+            double media = rs.getDouble("media");
+            System.out.println("La media de edad de todos los Heroes es de: "+(int) media );
+        }else{
+            System.out.println("No hay datos para hacer la media de edad. ");
+        }
+    } catch (SQLException e) {
+        throw new RuntimeException(e);
+    }
 
+}
 
 
     //class

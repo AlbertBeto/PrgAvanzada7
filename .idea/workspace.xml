@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="fa6dbf03-e0af-4a38-a874-b44d974f56f5" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BaseDatos/NeoProyecto/Mysql/LoginHandleDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BaseDatos/NeoProyecto/Mysql/LoginHandleDB.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/BaseDatos/bokuNoHero/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BaseDatos/bokuNoHero/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/BaseDatos/bokuNoHero/Mysql/BokuNoHeroeHandleBD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BaseDatos/bokuNoHero/Mysql/BokuNoHeroeHandleBD.java" afterDir="false" />
     </list>
@@ -393,11 +392,17 @@
       <option name="project" value="LOCAL" />
       <updated>1686508675917</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="Creado la impresión en pantalla de los heroes en la base de datos.">
+      <created>1686511520382</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1686511520382</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="JSON java dentro de IN Out" />
     <MESSAGE value="Trabajando la primera parte dle ejercicio de JSON" />
     <MESSAGE value="Acabado el primer ejercicio de JSON" />
     <MESSAGE value="Acabado el segundo  ejercicio de JSON y preparado para aceptar los argumentos externos." />
@@ -422,7 +427,8 @@
     <MESSAGE value="Conecta la base de datos y he creado el constructor de 1 poder" />
     <MESSAGE value="Todo corregido conecta y crea el heroe y poder 1.&#10;Ahora voy a crear los constructores de 2 y 3 poderes." />
     <MESSAGE value="Creados y comprobados los constructores de 2, 3 y 4 poderes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Creados y comprobados los constructores de 2, 3 y 4 poderes" />
+    <MESSAGE value="Creado la impresión en pantalla de los heroes en la base de datos." />
+    <option name="LAST_COMMIT_MESSAGE" value="Creado la impresión en pantalla de los heroes en la base de datos." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -446,6 +452,11 @@
           <url>file://$PROJECT_DIR$/src/JSON/ElTiempoAPB.java</url>
           <line>52</line>
           <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/BaseDatos/bokuNoHero/Mysql/BokuNoHeroeHandleBD.java</url>
+          <line>111</line>
+          <option name="timeStamp" value="45" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/BaseDatos/NeoProyecto/Mysql/LoginHandleDB.java</url>
@@ -473,6 +484,15 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/BaseDatos/bokuNoHero/Mysql/BokuNoHeroeHandleBD.java</url>
+          <line>110</line>
+          <properties class="BaseDatos.bokuNoHero.Mysql.BokuNoHeroeHandleBD" method="mediaEdad">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="44" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

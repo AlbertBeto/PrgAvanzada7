@@ -13,7 +13,7 @@ public class Main {
 //Heroe.createHeroe2Poderes("Deku","Izuku Midoriya", 16,"Sin don","Nada","One for All","Emisor");
 
         BokuNoHeroeHandleBD.verHeroes();
-
+BokuNoHeroeHandleBD.mediaEdad();
         //main
     }
 //class
