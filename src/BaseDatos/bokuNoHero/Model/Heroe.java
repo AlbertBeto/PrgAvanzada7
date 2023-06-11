@@ -85,5 +85,36 @@ public class Heroe {
         return edad;
     }
 
-    //class
+    public String getNombrePoder1() {
+        return nombrePoder1;
+    }
+
+    public String getTipoPoder1() {
+        return tipoPoder1;
+    }
+
+    public String getNombrePoder2() {
+        return nombrePoder2;
+    }
+
+    public String getTipoPoder2() {
+        return tipoPoder2;
+    }
+
+    public String getNombrePoder3() {
+        return nombrePoder3;
+    }
+
+    public String getTipoPoder3() {
+        return tipoPoder3;
+    }
+
+    public String getNombrePoder4() {
+        return nombrePoder4;
+    }
+
+    public String getTipoPoder4() {
+        return tipoPoder4;
+    }
+//class
 }
