@@ -6,6 +6,8 @@ import BaseDatos.bokuNoHero.Model.Quirks;
 import BaseDatos.bokuNoHero.Util.DatabaseConnection;
 
 import java.sql.*;
+import java.util.ArrayList;
+import java.util.List;
 
 public class BokuNoHeroeHandleBD {
 
@@ -88,8 +90,24 @@ public class BokuNoHeroeHandleBD {
             //System.out.println("El usuario no existe");
             pS.close();
             return -1;}
-
     }
+
+
+    public static void verHeroes() {
+            String query = "SELECT h.id,h.nickname,h.nombre,h.edad,q.nombre,q.tipo FROM heroe h JOIN quirk q on q.idHeroe=h.id";
+            Connection c = BaseDatos.bokuNoHero.Util.DatabaseConnection.getConnection();
+            try (Statement stat = c.createStatement()){
+
+                ResultSet rs = stat.executeQuery(query);
+
+                while (rs.next()){
+                    System.out.println(rs.getInt(1)+": "+rs.getString(2)+", "+rs.getString(3)+", "+rs.getInt(4)+". Poder: "+rs.getString(5)+" de tipo "+rs.getString(6));
+                }
+            }catch (SQLException e) {
+                throw new RuntimeException(e);
+            }
+    }
+
 
 
 

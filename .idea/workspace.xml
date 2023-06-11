@@ -6,8 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="fa6dbf03-e0af-4a38-a874-b44d974f56f5" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BaseDatos/NeoProyecto/Mysql/LoginHandleDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BaseDatos/NeoProyecto/Mysql/LoginHandleDB.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/BaseDatos/bokuNoHero/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BaseDatos/bokuNoHero/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BaseDatos/bokuNoHero/Model/Heroe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BaseDatos/bokuNoHero/Model/Heroe.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BaseDatos/bokuNoHero/Mysql/BokuNoHeroeHandleBD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BaseDatos/bokuNoHero/Mysql/BokuNoHeroeHandleBD.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -385,11 +386,17 @@
       <option name="project" value="LOCAL" />
       <updated>1686507649246</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="Creados y comprobados los constructores de 2, 3 y 4 poderes">
+      <created>1686508675917</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1686508675917</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="lO ULTIMO PARA HACER LIMPIEZA EN CLASE" />
     <MESSAGE value="JSON java dentro de IN Out" />
     <MESSAGE value="Trabajando la primera parte dle ejercicio de JSON" />
     <MESSAGE value="Acabado el primer ejercicio de JSON" />
@@ -414,7 +421,8 @@
     <MESSAGE value="Creados los objetos 9.2" />
     <MESSAGE value="Conecta la base de datos y he creado el constructor de 1 poder" />
     <MESSAGE value="Todo corregido conecta y crea el heroe y poder 1.&#10;Ahora voy a crear los constructores de 2 y 3 poderes." />
-    <option name="LAST_COMMIT_MESSAGE" value="Todo corregido conecta y crea el heroe y poder 1.&#10;Ahora voy a crear los constructores de 2 y 3 poderes." />
+    <MESSAGE value="Creados y comprobados los constructores de 2, 3 y 4 poderes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Creados y comprobados los constructores de 2, 3 y 4 poderes" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -439,21 +447,6 @@
           <line>52</line>
           <option name="timeStamp" value="7" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/BaseDatos/bokuNoHero/Model/Heroe.java</url>
-          <line>36</line>
-          <option name="timeStamp" value="40" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/BaseDatos/bokuNoHero/Model/Heroe.java</url>
-          <line>34</line>
-          <option name="timeStamp" value="42" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/BaseDatos/bokuNoHero/Model/Heroe.java</url>
-          <line>35</line>
-          <option name="timeStamp" value="43" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/BaseDatos/NeoProyecto/Mysql/LoginHandleDB.java</url>
           <line>12</line>
@@ -465,7 +458,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/BaseDatos/bokuNoHero/Mysql/BokuNoHeroeHandleBD.java</url>
-          <line>11</line>
+          <line>13</line>
           <properties class="BaseDatos.bokuNoHero.Mysql.BokuNoHeroeHandleBD" method="addHeroe">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
@@ -474,21 +467,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/BaseDatos/bokuNoHero/Mysql/BokuNoHeroeHandleBD.java</url>
-          <line>38</line>
+          <line>40</line>
           <properties class="BaseDatos.bokuNoHero.Mysql.BokuNoHeroeHandleBD" method="addQuirk">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="38" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/BaseDatos/bokuNoHero/Model/Heroe.java</url>
-          <line>31</line>
-          <properties class="BaseDatos.bokuNoHero.Model.Heroe" method="createHeroe1Poder">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="39" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
