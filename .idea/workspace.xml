@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fa6dbf03-e0af-4a38-a874-b44d974f56f5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/BaseDatos/bokuNoHero/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BaseDatos/bokuNoHero/Model/Heroe.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BaseDatos/bokuNoHero/Util/DatabaseConnection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BaseDatos/bokuNoHero/Model/Quirks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BaseDatos/bokuNoHero/Mysql/BokuNoHeroeHandleBD.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BaseDatos/bokuNoHero/Model/Heroe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BaseDatos/bokuNoHero/Model/Heroe.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,6 +58,9 @@
       <recent name="B:\Cerbell\GSDAW\PROGRAMACIONJAVA\UNIDAD 7\PrgAvanzada\PrgAvanzada\src" />
       <recent name="B:\Cerbell\GSDAW\PROGRAMACIONJAVA\UNIDAD 7\PrgAvanzada\PrgAvanzada" />
       <recent name="B:\Cerbell\GSDAW\PROGRAMACIONJAVA\UNIDAD 7\PrgAvanzada\PrgAvanzada\src\Genericos" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="BaseDatos.bokuNoHero.Util" />
     </key>
   </component>
   <component name="RunManager" selected="Application.Main">
@@ -348,11 +351,17 @@
       <option name="project" value="LOCAL" />
       <updated>1686437458347</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="Creando las bases del ejercicio 9.2 Persistencia en BD sobre bokuNoHeroe">
+      <created>1686441827016</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1686441827016</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Acabado el 5" />
     <MESSAGE value="Acabado el 6" />
     <MESSAGE value="Peleando el 8 B y C" />
     <MESSAGE value="Creado In and Out carpeta" />
@@ -377,7 +386,8 @@
     <MESSAGE value="Creo metodo checkname y lo incluyo en addLogin." />
     <MESSAGE value="Creado el update y modificado todo el sistema para que no se pueda repetir nombres de usuario." />
     <MESSAGE value="Acabados todos los ejercicios del 9.1 de Conectores a Base de datos." />
-    <option name="LAST_COMMIT_MESSAGE" value="Acabados todos los ejercicios del 9.1 de Conectores a Base de datos." />
+    <MESSAGE value="Creando las bases del ejercicio 9.2 Persistencia en BD sobre bokuNoHeroe" />
+    <option name="LAST_COMMIT_MESSAGE" value="Creando las bases del ejercicio 9.2 Persistencia en BD sobre bokuNoHeroe" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
