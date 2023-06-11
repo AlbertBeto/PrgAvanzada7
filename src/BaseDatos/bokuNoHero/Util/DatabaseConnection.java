@@ -13,7 +13,7 @@ public class DatabaseConnection {
 
     static {
         //Este es un campo static que me permite dar valor a connection que es static.
-        String url = "jdbc:mysql://localhost/bokuNoHeroe";
+        String url = "jdbc:mysql://localhost/bokuNoHero";
         String user = "root";
         String password = "Warrilinux";
         try{

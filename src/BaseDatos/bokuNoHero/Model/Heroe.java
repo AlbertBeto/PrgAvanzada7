@@ -1,5 +1,7 @@
 package BaseDatos.bokuNoHero.Model;
 
+import BaseDatos.bokuNoHero.Mysql.BokuNoHeroeHandleBD;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -8,7 +10,14 @@ public class Heroe {
     private String nickname;
     private String nombre;
     private int edad;
-    private List<Quirks> poderes;
+    private String nombrePoder1;
+    private String tipoPoder1;
+    private String nombrePoder2;
+    private String tipoPoder2;
+    private String nombrePoder3;
+    private String tipoPoder3;
+    private String nombrePoder4;
+    private String tipoPoder4;
 
     public Heroe() {
     }
@@ -17,16 +26,28 @@ public class Heroe {
         this.nickname = nickname;
         this.nombre = nombre;
         this.edad = edad;
-        this.poderes = new ArrayList<>();
+
     }
 
-    private Heroe createHeroe(String nickname, String nombre, int edad){
+    public static void createHeroe1Poder(String nickname, String nombre, int edad,String nombrePoder1, String tipoPoder1){
         Heroe heroe = new Heroe(nickname, nombre, edad);
-        return heroe;
-    }
-    public Heroe creadorHeroe(String nickname,String nombre, int edad){
-        return createHeroe(nickname,nombre,edad);
+        BokuNoHeroeHandleBD handleBD = new BokuNoHeroeHandleBD();
+        int idheroe=handleBD.addHeroe(heroe);
+        Quirks poder = Quirks.createQuirk(nombrePoder1,tipoPoder1,idheroe);
+        handleBD.addQuirk(poder);
     }
 
-//class
+    public String getNickname() {
+        return nickname;
+    }
+
+    public String getNombre() {
+        return nombre;
+    }
+
+    public int getEdad() {
+        return edad;
+    }
+
+    //class
 }

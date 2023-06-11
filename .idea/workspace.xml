@@ -6,8 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="fa6dbf03-e0af-4a38-a874-b44d974f56f5" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BaseDatos/bokuNoHero/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BaseDatos/bokuNoHero/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/BaseDatos/bokuNoHero/Model/Heroe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BaseDatos/bokuNoHero/Model/Heroe.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/BaseDatos/bokuNoHero/Model/Quirks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BaseDatos/bokuNoHero/Model/Quirks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BaseDatos/bokuNoHero/Mysql/BokuNoHeroeHandleBD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BaseDatos/bokuNoHero/Mysql/BokuNoHeroeHandleBD.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +64,20 @@
       <recent name="BaseDatos.bokuNoHero.Util" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.BaseDatos.bokuNoHero.Main">
+    <configuration name="BaseDatos.bokuNoHero.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BaseDatos.bokuNoHero.Main" />
+      <module name="PrgAvanzada" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="BaseDatos.bokuNoHero.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ElTiempoAPB" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="JSON.ElTiempoAPB" />
       <module name="PrgAvanzada" />
@@ -102,19 +117,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NIO" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="IN_OUT.NIO" />
-      <module name="PrgAvanzada" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="IN_OUT.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="creandoJSON" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="JSON.creandoJSON" />
       <module name="PrgAvanzada" />
@@ -130,11 +132,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BaseDatos.bokuNoHero.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.LuviasJson" />
         <item itemvalue="Application.ElTiempoAPB" />
         <item itemvalue="Application.creandoJSON" />
-        <item itemvalue="Application.NIO" />
       </list>
     </recent_temporary>
   </component>
@@ -364,11 +366,17 @@
       <option name="project" value="LOCAL" />
       <updated>1686442900779</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="Creados los objetos 9.2">
+      <created>1686498065897</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1686498065897</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Peleando el 8 B y C" />
     <MESSAGE value="Creado In and Out carpeta" />
     <MESSAGE value="Inlcuidos JAR de PDF" />
     <MESSAGE value="lO ULTIMO PARA HACER LIMPIEZA EN CLASE" />
@@ -393,7 +401,8 @@
     <MESSAGE value="Acabados todos los ejercicios del 9.1 de Conectores a Base de datos." />
     <MESSAGE value="Creando las bases del ejercicio 9.2 Persistencia en BD sobre bokuNoHeroe" />
     <MESSAGE value="Crenado estructura bases y primeros pasos del Singleton" />
-    <option name="LAST_COMMIT_MESSAGE" value="Crenado estructura bases y primeros pasos del Singleton" />
+    <MESSAGE value="Creados los objetos 9.2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Creados los objetos 9.2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
