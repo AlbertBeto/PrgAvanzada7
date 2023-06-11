@@ -12,10 +12,15 @@ public class Quirks {
     private Quirks() {
     }
 
-    public Quirks createQuirk(String nombre, String tipo){
+    private Quirks createQuirk(String nombre, String tipo){
         Quirks quirk = new Quirks(nombre,tipo);
         return quirk;
     }
+
+    public Quirks creadorQuirks(String nombre, String tipo){
+        return createQuirk(nombre,tipo);
+    }
+
 
     //class
 }
