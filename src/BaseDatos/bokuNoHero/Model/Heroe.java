@@ -37,6 +37,42 @@ public class Heroe {
         handleBD.addQuirk(poder);
     }
 
+    public static void createHeroe2Poderes(String nickname, String nombre, int edad,String nombrePoder1, String tipoPoder1,String nombrePoder2, String tipoPoder2){
+        Heroe heroe = new Heroe(nickname, nombre, edad);
+        BokuNoHeroeHandleBD handleBD = new BokuNoHeroeHandleBD();
+        int idheroe=handleBD.addHeroe(heroe);
+        Quirks poder1 = Quirks.createQuirk(nombrePoder1,tipoPoder1,idheroe);
+        handleBD.addQuirk(poder1);
+        Quirks poder2 = Quirks.createQuirk(nombrePoder2,tipoPoder2,idheroe);
+        handleBD.addQuirk(poder2);
+    }
+
+    public static void createHeroe3Poderes(String nickname, String nombre, int edad,String nombrePoder1, String tipoPoder1,String nombrePoder2, String tipoPoder2,String nombrePoder3, String tipoPoder3){
+        Heroe heroe = new Heroe(nickname, nombre, edad);
+        BokuNoHeroeHandleBD handleBD = new BokuNoHeroeHandleBD();
+        int idheroe=handleBD.addHeroe(heroe);
+        Quirks poder1 = Quirks.createQuirk(nombrePoder1,tipoPoder1,idheroe);
+        handleBD.addQuirk(poder1);
+        Quirks poder2 = Quirks.createQuirk(nombrePoder2,tipoPoder2,idheroe);
+        handleBD.addQuirk(poder2);
+        Quirks poder3 = Quirks.createQuirk(nombrePoder3,tipoPoder3,idheroe);
+        handleBD.addQuirk(poder3);
+    }
+
+    public static void createHeroe4Poderes(String nickname, String nombre, int edad,String nombrePoder1, String tipoPoder1,String nombrePoder2, String tipoPoder2,String nombrePoder3, String tipoPoder3,String nombrePoder4, String tipoPoder4){
+        Heroe heroe = new Heroe(nickname, nombre, edad);
+        BokuNoHeroeHandleBD handleBD = new BokuNoHeroeHandleBD();
+        int idheroe=handleBD.addHeroe(heroe);
+        Quirks poder1 = Quirks.createQuirk(nombrePoder1,tipoPoder1,idheroe);
+        handleBD.addQuirk(poder1);
+        Quirks poder2 = Quirks.createQuirk(nombrePoder2,tipoPoder2,idheroe);
+        handleBD.addQuirk(poder2);
+        Quirks poder3 = Quirks.createQuirk(nombrePoder3,tipoPoder3,idheroe);
+        handleBD.addQuirk(poder3);
+        Quirks poder4 = Quirks.createQuirk(nombrePoder4,tipoPoder4,idheroe);
+        handleBD.addQuirk(poder4);
+    }
+
     public String getNickname() {
         return nickname;
     }
